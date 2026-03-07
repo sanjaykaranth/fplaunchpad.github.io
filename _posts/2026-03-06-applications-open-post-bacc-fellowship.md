@@ -23,7 +23,11 @@ You will not work in isolation. You will be part of a cohort of 8 fellows, worki
 
 Fellows have real agency in shaping their research direction. You will arrive with interests and ideas, and together with your mentors, define the problems you work on. The application asks what you want to build. We take that seriously.
 
-The point of all of this is to give you the time, the mentorship, and the intellectual space to do work that matters, and to figure out what kind of work you want to spend your life doing. But it is also bigger than any individual fellow. You will be contributing to the open-source commons, to India's systems research capacity, and become the next generation of maintainers for foundational software.
+<figure style="margin: 2em auto; max-width: 600px; box-shadow: 0 2px 12px rgba(0,0,0,0.15); border-radius: 4px; overflow: hidden;">
+  <img src="/assets/images/ramanujan.png" alt="Ramachandra Rao on Ramanujan: 'He never craved for any distinction. He wanted leisure; in other words, that simple food should be provided for him without exertion on his part and that he should be allowed to dream on.'" style="width: 100%; display: block;">
+</figure>
+
+When Ramachandra Rao [first met Ramanujan](https://peachf.org/images/SouthAsia/IndiaMathPapersRamanujan.pdf) in Madras, he noted that the young mathematician never craved distinction. What he wanted was *leisure*: "that simple food should be provided for him without exertion on his part and that he should be allowed to dream on." The fellowship is built in that spirit. Its point is to give you the time, the mentorship, and the intellectual space to do work that matters, and to figure out what kind of work you want to spend your life doing. But it is also bigger than any individual fellow. You will be contributing to the open-source commons, to India's systems research capacity, and become the next generation of maintainers for foundational software.
 
 ## Who this is for
 
