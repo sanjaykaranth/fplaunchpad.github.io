@@ -2,6 +2,7 @@
 layout: post
 title: "Applications Open: Post-Baccalaureate Fellowship"
 date: 2026-03-06
+image: /assets/images/fellowship-banner.png
 ---
 
 FP Launchpad is accepting applications for its inaugural cohort of Post-Baccalaureate Fellows. We are looking for **8 Fellows** to join us at [IIT Madras](https://www.iitm.ac.in/) for a fully funded, two-year research fellowship starting later this year.
