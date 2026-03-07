@@ -6,3 +6,15 @@ layout: default
 <script src="{{ '/assets/anchor-links.js' | relative_url }}"></script>
 
 {{ content }}
+
+{%- if site.posts.size > 0 -%}
+<h2>News</h2>
+<ul class="post-list">
+  {%- for post in site.posts -%}
+  <li>
+    <span class="post-meta">{{ post.date | date: "%-d %B %Y" }}</span>
+    <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
+  </li>
+  {%- endfor -%}
+</ul>
+{%- endif -%}
