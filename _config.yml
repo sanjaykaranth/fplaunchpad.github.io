@@ -14,6 +14,7 @@ theme: minima
 header_pages:
   - index.md
   - charter.md
+  - news.md
 
 # Social links (optional - add as needed)
 # github_username: prismlab
