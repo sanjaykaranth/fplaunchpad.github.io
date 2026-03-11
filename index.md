@@ -31,3 +31,7 @@ The Functional Programming (FP) Launchpad at [IIT Madras](https://www.iitm.ac.in
 * [Sriram Rajamani](https://www.microsoft.com/en-us/research/people/sriram/), Corporate Vice President, Microsoft Research
 * [Satnam Singh](https://satnam6502.github.io/bio/), Software Engineer, [Harmonic](https://harmonic.fun/)
 * [Nik Swamy](https://www.microsoft.com/en-us/research/people/nswamy/), Senior Principal Researcher, Microsoft Research
+
+## Stay in touch
+
+Sign up for our newsletter to stay informed about upcoming events, open positions, and other opportunities at FP Launchpad. To subscribe, email [contact@fplaunchpad.org](mailto:contact@fplaunchpad.org?subject=Subscribe%20to%20Newsletter) with the subject line "Subscribe to Newsletter". We send updates infrequently and only when there is something meaningful to share.

@@ -74,3 +74,7 @@ The application asks about your motivation, your technical background, your prog
 If you have questions, reach out to [careers@fplaunchpad.org](mailto:careers@fplaunchpad.org).
 
 If you have been looking for the right place to do serious work, apply.
+
+## Stay in touch
+
+If this fellowship is not the right fit for you right now, or if you are not yet eligible to apply, we would still love to stay connected. Sign up for our newsletter to hear about future cohorts, other open positions, events, and opportunities at FP Launchpad. To subscribe, email [contact@fplaunchpad.org](mailto:contact@fplaunchpad.org?subject=Subscribe%20to%20Newsletter) with the subject line "Subscribe to Newsletter". We send updates infrequently and only when there is something meaningful to share.
