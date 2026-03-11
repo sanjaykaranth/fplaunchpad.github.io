@@ -17,9 +17,9 @@ header_pages:
   - charter.md
   - news.md
 
-# Social links (optional - add as needed)
-# github_username: prismlab
-# twitter_username:
+# Social links
+twitter_username: fp_launchpad
+linkedin_url: https://www.linkedin.com/company/fp-launchpad/
 
 # Exclude from processing
 exclude:
