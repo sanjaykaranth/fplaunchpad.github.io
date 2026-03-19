@@ -1,0 +1,46 @@
+<script type="module">
+  import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@11/dist/mermaid.esm.min.mjs';
+  mermaid.initialize({
+    startOnLoad: true,
+    theme: 'base',
+    themeVariables: {
+      primaryColor: '#eaf2ff',
+      primaryBorderColor: '#2a7ae2',
+      primaryTextColor: '#111',
+      lineColor: '#2a7ae2',
+      fontSize: '15px',
+      clusterBkg: '#f9f9f9',
+      clusterBorder: '#ccc',
+      edgeLabelBackground: '#fff'
+    },
+    flowchart: { curve: 'basis', padding: 20 }
+  });
+</script>
+
+<style>
+.mermaid { margin: 2rem 0; }
+.mermaid svg { max-width: 100%; }
+</style>
+
+<div class="mermaid">
+flowchart TD
+
+{% for group in site.data.education.groups %}
+    subgraph {{ group.id }}["{{ group.label }}"]
+    {% for node_id in group.nodes %}
+    {% assign node = site.data.education.nodes | where: "id", node_id | first %}
+        {{ node.id }}["{{ node.label }}"]
+    {% endfor %}
+    end
+{% endfor %}
+
+{% for edge in site.data.education.edges %}
+    {{ edge[0] }} --> {{ edge[1] }}
+{% endfor %}
+
+{% for node in site.data.education.nodes %}
+    click {{ node.id }} href "{{ node.url }}" _blank
+{% endfor %}
+</div>
+
+<p style="font-size:0.85rem; color:#828282;">Click any node to open the tutorial. Arrows indicate prerequisites.</p>

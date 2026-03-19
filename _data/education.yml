@@ -1,0 +1,67 @@
+groups:
+  - id: FOUND
+    label: 'Foundations'
+    nodes: [A]
+
+  - id: SC
+    label: 'Single-Core Concurrency\n(how to structure overlapping tasks)'
+    nodes: [B, D]
+
+  - id: IO
+    label: 'Concurrency + I/O'
+    nodes: [E]
+
+  - id: MC
+    label: 'Multi-Core Parallelism\n(how to exploit multiple cores)'
+    nodes: [C, F]
+
+  - id: ADV
+    label: 'Multi-Core + Concurrency\n(the hard intersection)'
+    nodes: [G]
+
+  - id: RES
+    label: 'Language-Level Safety\n(the research frontier)'
+    nodes: [H]
+
+nodes:
+  - id: A
+    label: 'Learn OCaml Workshop\n(Jane Street · 2024)'
+    url: https://github.com/kayceesrk/learn-ocaml-workshop-2024
+
+  - id: B
+    label: 'Effects Tutorial\nConcurrent programming\nwith effect handlers'
+    url: https://github.com/ocaml-multicore/ocaml-effects-tutorial
+
+  - id: D
+    label: 'Effects Examples\nCompanion code reference'
+    url: https://github.com/ocaml-multicore/effects-examples
+
+  - id: E
+    label: 'Eio / Lwt Tutorial\nEffects-based async I/O\nin OCaml 5'
+    url: https://github.com/ocaml-multicore/icfp-2023-eio-tutorial
+
+  - id: C
+    label: 'Parallel Programming\nin Multicore OCaml\n(Domains & domainslib)'
+    url: https://github.com/ocaml-multicore/parallel-programming-in-multicore-ocaml
+
+  - id: F
+    label: 'OCaml 5 Tutorial\nHands-on with domains\n& parallelism features'
+    url: https://github.com/ocaml-multicore/ocaml5-tutorial
+
+  - id: G
+    label: 'Parallelism Without Panic\nSafe patterns across cores\n(BobKonf 2026)'
+    url: https://bobkonf.de/2026/morel.html
+
+  - id: H
+    label: 'OxCaml Tutorial\nModes & uniqueness —\ntype system prevents data races\n(ICFP 2025)'
+    url: https://github.com/oxcaml/tutorial-icfp25
+
+edges:
+  - [A, B]
+  - [A, C]
+  - [B, D]
+  - [B, E]
+  - [C, F]
+  - [E, G]
+  - [F, G]
+  - [G, H]

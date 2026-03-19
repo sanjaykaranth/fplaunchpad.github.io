@@ -1,0 +1,94 @@
+- role: Head
+  members:
+    - name: KC Sivaramakrishnan
+      photo: https://kcsrk.info/assets/profile.jpeg
+      website: https://kcsrk.info
+      designation: Head of FP Launchpad · Assistant Professor, CSE IIT Madras · CTO, Tarides
+      bio: Builds robust, secure, and scalable systems using PL technology; led the development of Multicore OCaml, now OCaml 5.
+
+- role: Research Staff
+  members:
+    - name: Alina Banerjee
+      photo: /assets/images/person-placeholder.svg
+      website: https://www.blue-indus.in/
+      designation: Research Staff (2025–), CSE IIT Madras
+      bio: Compiler and PL researcher; contributions to Multicore OCaml and dependently-typed languages (Idris2).
+
+    - name: Navaneeth Nambiar
+      photo: /assets/images/person-placeholder.svg
+      designation: Research Staff
+      bio: Performance evaluation, benchmarking, and eBPF-based tooling for OCaml runtime analysis.
+
+- role: PhD Students
+  members:
+    - name: Vimala Soundarapandian
+      photo: https://avatars.githubusercontent.com/u/59866854?v=4
+      website: https://sites.google.com/view/vimala90/
+      designation: "PhD student (2020–), CSE IIT Madras · Prime Minister's Research Fellow"
+      bio: Formal verification of distributed systems; certified mergeable replicated data types; replication-aware linearizability.
+
+    - name: Nitish Yadav
+      photo: https://yadavnitishyn.github.io/NitishYadavWebpage/images/IMG_0625.jpeg
+      website: https://yadavnitishyn.github.io/NitishYadavWebpage/
+      designation: PhD student (2024–), CSE IIT Madras (PACE Lab)
+      bio: Automated formal verification, model checking, distributed systems, cyber-physical systems.
+
+    - name: Durwasa Chakraborty
+      photo: https://avatars.githubusercontent.com/u/6106465?v=4
+      website: https://durwasa-chakraborty.github.io
+      designation: PhD student (2025–), CSE IIT Madras
+      bio: Programming languages, formal methods, data races, concurrent systems programming.
+
+    - name: Sheera Shamsu
+      photo: /assets/images/person-placeholder.svg
+      designation: PhD student (2019–), CSE IIT Madras
+      bio: Formal verification of garbage collectors for OCaml.
+
+    - name: Sai Venkata Krishnan
+      photo: https://cystar.iitm.ac.in/wp-content/uploads/2024/11/inner_SaiVenkata.webp
+      website: https://saivk.github.io/
+      designation: "PhD student (2021–), CSE IIT Madras · Prime Minister's Research Fellow"
+      bio: Memory and control-flow security; secure-by-default unikernels for IoT; hardware-software co-designed memory safety and compartmentalization.
+
+- role: MS Students
+  members:
+    - name: Vishakh Desai
+      photo: https://avatars.githubusercontent.com/u/78500008?v=4
+      designation: MS student (2025–), CSE IIT Madras
+      bio: Formal methods and security analysis applied to election systems.
+
+    - name: B Sanjeev Reddy
+      photo: /assets/images/person-placeholder.svg
+      designation: MS student (2025–), CSE IIT Madras
+      bio: Integrating the MMTk memory management toolkit with the OCaml runtime.
+
+- role: MTech Students
+  members:
+    - name: Sagar Biswas
+      photo: https://mrsagarbiswas.dpdns.org/Sagar_Biswas.jpeg
+      website: https://mrsagarbiswas.dpdns.org/
+      designation: MTech student (2024–2026), CSE IIT Madras
+      bio: High-performance computing, distributed systems, GPU acceleration (CUDA), multicore GC for OCaml.
+
+    - name: Surendar
+      photo: /assets/images/person-placeholder.svg
+      designation: MTech student, CSE IIT Madras
+      bio: "Garbage collection for OCaml's effect handlers and continuation/fiber stack management."
+
+- role: BTech Students
+  members:
+    - name: Pranav Ramesh
+      photo: /assets/images/person-placeholder.svg
+      designation: BTech student (BTP, Spring 2026), CSE IIT Madras
+      bio: Intersection of formal methods and large language models.
+
+    - name: Aadi Srivastava
+      photo: /assets/images/person-placeholder.svg
+      designation: BTech student (UGRC, Spring 2026), CSE IIT Madras
+      bio: Integrating the MMTk memory management toolkit with the OCaml runtime.
+
+    - name: Md. Isfarul Haque
+      photo: /assets/images/person-placeholder.svg
+      website: https://innocentzero.is-a.dev
+      designation: BTech student (2022 batch), CSE IIT Madras
+      bio: Systems and OS developer; interests in type theory, Rust, hardware-software security.

@@ -1,0 +1,184 @@
+tags_all: [OCaml, Systems, Teaching]
+
+themes:
+  - title: "OCaml 5: Multicore &amp; Algebraic Effects"
+    tags: [OCaml, Systems]
+    lang_tags: [OCaml, Standard ML, WebAssembly]
+    description: >
+      The most significant contribution — bringing native multicore support and algebraic
+      effect handlers into OCaml 5. This was a multi-year research and engineering effort
+      that fundamentally changed what OCaml can do for concurrent systems programming.
+    related_research:
+      - text: "Effect Handlers &amp; Language Design"
+        url: /research/#effect-handlers--language-design
+      - text: "Concurrency &amp; Parallelism"
+        url: /research/#concurrency--parallelism
+    repos:
+      - name: ocaml-multicore
+        url: https://github.com/ocaml-multicore/multicore-opam
+        description: The multicore OCaml fork that merged into OCaml 5
+      - name: ocaml-aeio
+        url: https://github.com/kayceesrk/ocaml-aeio
+        description: Asynchronous effect-based I/O
+      - name: delimcc_of_fxhandler
+        url: https://github.com/kayceesrk/delimcc_of_fxhandler
+        description: Delimited continuations via OCaml 5 effect handlers
+      - name: ocaml15-eff
+        url: https://github.com/kayceesrk/ocaml15-eff
+        description: Early algebraic effects demos (OCaml Workshop 2015)
+      - name: eff_delimcc_ocaml
+        url: https://github.com/kayceesrk/eff_delimcc_ocaml
+        description: Translations between Eff, Delimcc and Multicore OCaml
+      - name: reify_reflect_concurrency
+        url: https://github.com/kayceesrk/reify_reflect_concurrency
+        description: Monadic reflections on concurrency
+      - name: async-io-handler
+        url: https://github.com/kayceesrk/async-io-handler
+        description: Async I/O with effect handlers
+      - name: wasmfx
+        url: https://github.com/kayceesrk/wasmfx
+        description: Algebraic effects for WebAssembly
+      - name: sml-effect-conc
+        url: https://github.com/kayceesrk/sml-effect-conc
+        description: Effects-based concurrency in Standard ML
+
+  - title: "Distributed &amp; Eventually Consistent Systems"
+    tags: [OCaml, Systems]
+    lang_tags: [OCaml, Haskell]
+    description: >
+      Building mergeable and CRDT-based data structures on top of distributed storage,
+      with Irmin (a Git-like database written in OCaml) as a central platform.
+    related_research:
+      - text: "Distributed Systems &amp; Consistency"
+        url: /research/#distributed-systems--consistency
+    repos:
+      - name: irmin
+        url: https://github.com/mirage/irmin
+        description: Distributed database following Git design principles
+      - name: ezirmin
+        url: https://github.com/kayceesrk/ezirmin
+        description: High-level API over Irmin
+      - name: irmin-datatypes
+        url: https://github.com/kayceesrk/irmin-datatypes
+        description: Mergeable functional data structures for Irmin
+      - name: Quelea
+        url: https://github.com/kayceesrk/Quelea
+        description: Declarative programming over eventually consistent stores (Cassandra) in Haskell
+      - name: mergeable-vector
+        url: https://github.com/kayceesrk/mergeable-vector
+        description: Mergeable vectors with operational transformation
+      - name: merge-ropes
+        url: https://github.com/kayceesrk/merge-ropes
+        description: Mergeable rope data structures
+
+  - title: "Multicore Runtimes &amp; Performance"
+    tags: [OCaml, Systems]
+    lang_tags: [OCaml, Standard ML, C]
+    description: >
+      Low-level work on multicore language runtimes, benchmarking infrastructure, and
+      profiling tooling.
+    related_research:
+      - text: "Concurrency &amp; Parallelism"
+        url: /research/#concurrency--parallelism
+      - text: "Memory Management &amp; Runtime Systems"
+        url: /research/#memory-management--runtime-systems
+    repos:
+      - name: multiMLton
+        url: https://github.com/kayceesrk/multiMLton
+        description: "Multicore MLton — scalable multicore Standard ML"
+      - name: mlton-zmq
+        url: https://github.com/kayceesrk/mlton-zmq
+        description: Distributed MLton over ZeroMQ
+      - name: sandmark
+        url: https://github.com/ocaml-bench/sandmark
+        description: Benchmarking suite for the OCaml compiler
+      - name: ocaml_runtime_stats
+        url: https://github.com/kayceesrk/ocaml_runtime_stats
+        description: Runtime statistics tooling for OCaml
+      - name: runtime_events_tools
+        url: https://github.com/kayceesrk/runtime_events_tools
+        description: Tooling for OCaml 5 runtime events
+      - name: tsx-tools
+        url: https://github.com/kayceesrk/tsx-tools
+        description: Header files for Intel TSX (hardware transactional memory)
+
+  - title: "RISC-V &amp; Cross-Platform OCaml"
+    tags: [OCaml, Systems]
+    lang_tags: [OCaml, Shell]
+    description: >
+      Porting the OCaml system to RISC-V — important for OCaml's long-term portability
+      across hardware architectures.
+    repos:
+      - name: riscv-ocaml
+        url: https://github.com/kayceesrk/riscv-ocaml
+        description: RISC-V port of the OCaml system
+      - name: riscv-ocaml-cross
+        url: https://github.com/kayceesrk/riscv-ocaml-cross
+        description: RISC-V OCaml cross-compiler toolchain
+      - name: opam-cross-shakti
+        url: https://github.com/kayceesrk/opam-cross-shakti
+        description: OPAM support for the Shakti RISC-V processor
+
+  - title: "OCaml Ecosystem &amp; Tooling"
+    tags: [OCaml]
+    lang_tags: [OCaml, JavaScript, Haskell]
+    description: >
+      Maintenance and contributions across the broader OCaml ecosystem — package management,
+      web libraries, and the official OCaml website.
+    repos:
+      - name: opam
+        url: https://github.com/ocaml/opam
+        description: OCaml source-based package manager
+      - name: opam-repository
+        url: https://github.com/ocaml/opam-repository
+        description: Main public package repository for OPAM
+      - name: lwt
+        url: https://github.com/ocsigen/lwt
+        description: Cooperative threading for OCaml
+      - name: ocaml-cohttp
+        url: https://github.com/mirage/ocaml-cohttp
+        description: Lightweight HTTP library
+      - name: httpaf
+        url: https://github.com/kayceesrk/httpaf
+        description: High-performance, memory-efficient web server in OCaml
+      - name: js_of_ocaml
+        url: https://github.com/ocsigen/js_of_ocaml
+        description: Compiler from OCaml to JavaScript
+      - name: ocaml.org
+        url: https://github.com/ocaml/ocaml.org
+        description: The official OCaml website
+
+  - title: "Teaching &amp; Course Materials"
+    tags: [OCaml, Teaching]
+    lang_tags: [OCaml, Coq, Java]
+    description: >
+      Extensive open course content published from IIT Madras, covering functional
+      programming, concurrency, compilers, and formal verification.
+    repos:
+      - name: cs3100_m25
+        url: https://github.com/kayceesrk/cs3100_m25
+        description: "Paradigms of Programming — Monsoon 2025"
+      - name: cs3100_m20
+        url: https://github.com/kayceesrk/cs3100_m20
+        description: "Paradigms of Programming — Monsoon 2020"
+      - name: cs3100_f19
+        url: https://github.com/kayceesrk/cs3100_f19
+        description: "Paradigms of Programming — Fall 2019"
+      - name: cs6868_s26
+        url: https://github.com/kayceesrk/cs6868_s26
+        description: Concurrent Programming
+      - name: cs6225_s25_iitm
+        url: https://github.com/kayceesrk/cs6225_s25_iitm
+        description: "Programs and Proofs (Coq) — Spring 2025"
+      - name: cs6225_s21_iitm
+        url: https://github.com/kayceesrk/cs6225_s21_iitm
+        description: "Programs and Proofs (Coq) — Spring 2021"
+      - name: cs3300_m22
+        url: https://github.com/kayceesrk/cs3300_m22
+        description: Compiler Design
+      - name: ocaml-tutorial
+        url: https://github.com/kayceesrk/ocaml-tutorial
+        description: OCaml tutorial at Abstraction 2019
+      - name: learn-ocaml-workshop-2024
+        url: https://github.com/kayceesrk/learn-ocaml-workshop-2024
+        description: Jane Street OCaml Workshop 2024

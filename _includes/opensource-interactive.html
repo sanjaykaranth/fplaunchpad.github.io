@@ -1,0 +1,79 @@
+<script src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js" defer></script>
+
+<style>
+.tag-filters { margin-bottom: 2rem; display: flex; gap: 0.5rem; flex-wrap: wrap; }
+.tag-btn {
+  padding: 0.3rem 0.8rem;
+  border: 1px solid #828282;
+  border-radius: 3px;
+  background: none;
+  cursor: pointer;
+  font-size: 0.9rem;
+  color: #828282;
+}
+.tag-btn.is-active {
+  background: #2a7ae2;
+  border-color: #2a7ae2;
+  color: white;
+}
+.opensource-theme { margin-bottom: 3rem; }
+.theme-tags { margin-bottom: 0.5rem; }
+.theme-tag {
+  display: inline-block;
+  font-size: 0.75rem;
+  font-family: monospace;
+  background: #f5f5f5;
+  border: 1px solid #e0e0e0;
+  border-radius: 3px;
+  padding: 0.1rem 0.4rem;
+  margin-right: 0.3rem;
+}
+.repo-toggle {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 0.9rem;
+  color: #2a7ae2;
+  padding: 0;
+  margin-top: 0.5rem;
+}
+.repo-toggle:hover { text-decoration: underline; }
+.repo-table { width: 100%; border-collapse: collapse; margin-top: 0.75rem; }
+.repo-table td { padding: 0.4rem 0.6rem; border-bottom: 1px solid #f0f0f0; font-size: 0.9rem; vertical-align: top; }
+.repo-table td:first-child { white-space: nowrap; width: 1%; padding-right: 1.5rem; }
+</style>
+
+<div x-data="{ active: 'all' }">
+
+  <div class="tag-filters">
+    <button class="tag-btn" :class="{ 'is-active': active === 'all' }" @click="active = 'all'">All</button>
+    {% for tag in site.data.opensource.tags_all %}
+    <button class="tag-btn" :class="{ 'is-active': active === '{{ tag }}' }" @click="active = '{{ tag }}'">{{ tag }}</button>
+    {% endfor %}
+  </div>
+
+  {% for theme in site.data.opensource.themes %}
+  {% capture show_cond %}active === 'all'{% for tag in theme.tags %} || active === '{{ tag }}'{% endfor %}{% endcapture %}
+  <div class="opensource-theme" x-data="{ open: false }" x-show="{{ show_cond }}">
+    <h2>{{ theme.title }}</h2>
+    <div class="theme-tags">
+      {% for tag in theme.lang_tags %}
+      <span class="theme-tag">{{ tag }}</span>
+      {% endfor %}
+    </div>
+    <p>{{ theme.description }}</p>
+    {% if theme.related_research %}
+    <p style="font-size:0.9rem;">Related research:
+      {% for link in theme.related_research %}<a href="{{ link.url }}">{{ link.text }}</a>{% unless forloop.last %}, {% endunless %}{% endfor %}
+    </p>
+    {% endif %}
+    <button class="repo-toggle" @click="open = !open" x-text="open ? '▲ Hide repositories' : '▼ Show repositories'"></button>
+    <table class="repo-table" x-show="open">
+      {% for repo in theme.repos %}
+      <tr><td><a href="{{ repo.url }}">{{ repo.name }}</a></td><td>{{ repo.description }}</td></tr>
+      {% endfor %}
+    </table>
+  </div>
+  {% endfor %}
+
+</div>
