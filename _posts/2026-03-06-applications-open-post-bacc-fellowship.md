@@ -75,6 +75,29 @@ If you have questions, reach out to [careers@fplaunchpad.org](mailto:careers@fpl
 
 If you have been looking for the right place to do serious work, apply.
 
+## FAQ
+
+<details markdown="1">
+<summary><strong>Am I eligible?</strong></summary>
+
+We are unable to answer case-by-case eligibility questions. If you are unsure, please submit a completed application and we will evaluate it. The prerequisites section above describes the profile we are looking for.
+
+</details>
+
+<details markdown="1">
+<summary><strong>The fellowship says it is fully funded. What exactly is covered?</strong></summary>
+
+Fellows receive a monthly stipend of up to ₹1,00,000, based on educational qualifications and experience, in accordance with [IITM IC&SR](https://icandsr.iitm.ac.in/) norms. Conference attendance costs (registration, travel, and accommodation) are fully covered when the fellow has an accepted paper or an accepted talk at an approved conference, again subject to IITM norms. No other expenses (relocation, housing, healthcare, etc.) are covered separately.
+
+</details>
+
+<details markdown="1">
+<summary><strong>Can I use AI tools to write my application?</strong></summary>
+
+We read every application carefully, including the code sample, and evaluate for evidence of genuine understanding and independent work. Applications that rely on primarily AI-generated content, whether in the written responses or the code sample, will be identified and rejected. We are looking for your voice, your thinking, and your code. If you cannot demonstrate that, this fellowship is not the right fit.
+
+</details>
+
 ## Stay in touch
 
 If this fellowship is not the right fit for you right now, or if you are not yet eligible to apply, we would still love to stay connected. Sign up for our newsletter to hear about future cohorts, other open positions, events, and opportunities at FP Launchpad. To subscribe, email [contact@fplaunchpad.org](mailto:contact@fplaunchpad.org?subject=Subscribe%20to%20Newsletter) with the subject line "Subscribe to Newsletter". We send updates infrequently and only when there is something meaningful to share.
