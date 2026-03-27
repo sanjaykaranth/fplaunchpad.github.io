@@ -67,8 +67,6 @@
   <a class="partner-card" href="{{ partner.website }}" target="_blank" rel="noopener">
     {% if partner.logo %}
     <img class="partner-logo" src="{{ partner.logo }}" alt="{{ partner.name }} logo">
-    {% else %}
-    <div class="partner-initials">{{ partner.name | split: ' ' | map: 'first' | join: '' | upcase | truncate: 3, '' }}</div>
     {% endif %}
     <div class="partner-name">{{ partner.name }}</div>
   </a>
