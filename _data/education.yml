@@ -1,7 +1,7 @@
 groups:
   - id: FOUND
     label: 'Foundations'
-    nodes: [A]
+    nodes: [A, I]
 
   - id: SC
     label: 'Single-Core Concurrency\n(how to structure overlapping tasks)'
@@ -17,7 +17,7 @@ groups:
 
   - id: ADV
     label: 'Multi-Core + Concurrency\n(the hard intersection)'
-    nodes: [G]
+    nodes: [G, J]
 
   - id: RES
     label: 'Language-Level Safety\n(the research frontier)'
@@ -27,6 +27,10 @@ nodes:
   - id: A
     label: 'Learn OCaml Workshop\n(Jane Street · 2024)'
     url: https://github.com/kayceesrk/learn-ocaml-workshop-2024
+
+  - id: I
+    label: 'CS3100 — Paradigms of\nProgramming\n(IITM Monsoon 2025)'
+    url: https://kcsrk.info/cs3100_m25/
 
   - id: B
     label: 'Effects Tutorial\nConcurrent programming\nwith effect handlers'
@@ -52,6 +56,10 @@ nodes:
     label: 'Parallelism Without Panic\nSafe patterns across cores\n(BobKonf 2026)'
     url: https://bobkonf.de/2026/morel.html
 
+  - id: J
+    label: 'CS6868 — Concurrent\nProgramming\n(IITM Spring 2026)'
+    url: https://github.com/kayceesrk/cs6868_s26/
+
   - id: H
     label: 'OxCaml Tutorial\nModes & uniqueness —\ntype system prevents data races\n(ICFP 2025)'
     url: https://github.com/oxcaml/tutorial-icfp25
@@ -59,9 +67,14 @@ nodes:
 edges:
   - [A, B]
   - [A, C]
+  - [A, J]
+  - [I, B]
+  - [I, C]
+  - [I, J]
   - [B, D]
   - [B, E]
   - [C, F]
   - [E, G]
   - [F, G]
   - [G, H]
+  - [J, H]
