@@ -51,11 +51,12 @@
   history: ""
   future_plan: ""
 
-- name: FOSS United Foundation
-  website: https://fossunited.org/
-  contact_person: ""
-  contact_email: rahul@fossunited.org
-  logo: https://avatars.githubusercontent.com/u/61445214?v=4
-  description: Non-profit dedicated to nurturing India's free and open source software ecosystem through community building, events, and advocacy.
-  history: Prof. KC Sivaramakrishnan has given talks at FOSS United events including IndiaFOSS.
-  future_plan: Host FOSS United speakers at FP Launchpad and initiate joint open-source projects.
+# Collaboration not yet started — uncommenting when active
+#- name: FOSS United Foundation
+#  website: https://fossunited.org/
+#  contact_person: ""
+#  contact_email: rahul@fossunited.org
+#  logo: https://avatars.githubusercontent.com/u/61445214?v=4
+#  description: Non-profit dedicated to nurturing India's free and open source software ecosystem through community building, events, and advocacy.
+#  history: Prof. KC Sivaramakrishnan has given talks at FOSS United events including IndiaFOSS.
+#  future_plan: Host FOSS United speakers at FP Launchpad and initiate joint open-source projects.
