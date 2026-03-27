@@ -1,0 +1,76 @@
+<script src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js" defer></script>
+
+<style>
+.tag-filters { margin-bottom: 2rem; display: flex; gap: 0.5rem; flex-wrap: wrap; }
+.tag-btn {
+  padding: 0.3rem 0.8rem;
+  border: 1px solid #828282;
+  border-radius: 3px;
+  background: none;
+  cursor: pointer;
+  font-size: 0.9rem;
+  color: #828282;
+}
+.tag-btn.is-active {
+  background: #2a7ae2;
+  border-color: #2a7ae2;
+  color: white;
+}
+.research-theme { margin-bottom: 3rem; }
+.theme-tags { margin-bottom: 0.5rem; }
+.theme-tag {
+  display: inline-block;
+  font-size: 0.75rem;
+  font-family: monospace;
+  background: #f5f5f5;
+  border: 1px solid #e0e0e0;
+  border-radius: 3px;
+  padding: 0.1rem 0.4rem;
+  margin-right: 0.3rem;
+}
+.pub-toggle {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 0.9rem;
+  color: #2a7ae2;
+  padding: 0;
+  margin-top: 0.5rem;
+}
+.pub-toggle:hover { text-decoration: underline; }
+</style>
+
+<div x-data="{ active: 'all' }">
+
+  <div class="tag-filters">
+    <button class="tag-btn" :class="{ 'is-active': active === 'all' }" @click="active = 'all'">All</button>
+    {% for tag in site.data.research.tags_all %}
+    <button class="tag-btn" :class="{ 'is-active': active === '{{ tag }}' }" @click="active = '{{ tag }}'">{{ tag }}</button>
+    {% endfor %}
+  </div>
+
+  {% for theme in site.data.research.themes %}
+  {% capture show_cond %}active === 'all'{% for tag in theme.tags %} || active === '{{ tag }}'{% endfor %}{% endcapture %}
+  <div class="research-theme" x-data="{ open: false }" x-show="{{ show_cond }}">
+    <h2>{{ theme.title }}</h2>
+    <div class="theme-tags">
+      {% for tag in theme.tags %}
+      <span class="theme-tag">{{ tag }}</span>
+      {% endfor %}
+    </div>
+    <p>{{ theme.description }}</p>
+    {% if theme.related_opensource %}
+    <p style="font-size:0.9rem;">Related open source work:
+      {% for link in theme.related_opensource %}<a href="{{ link.url }}">{{ link.text }}</a>{% unless forloop.last %}, {% endunless %}{% endfor %}
+    </p>
+    {% endif %}
+    <button class="pub-toggle" @click="open = !open" x-text="open ? '▲ Hide publications' : '▼ Show publications'"></button>
+    <ul x-show="open">
+      {% for pub in theme.publications %}
+      <li>{{ pub.title }} — {{ pub.authors }} <em>({{ pub.venue }})</em></li>
+      {% endfor %}
+    </ul>
+  </div>
+  {% endfor %}
+
+</div>

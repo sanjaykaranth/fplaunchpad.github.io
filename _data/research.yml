@@ -1,0 +1,221 @@
+tags_all: [OCaml, PLT, Systems]
+
+themes:
+  - title: "Effect Handlers &amp; Language Design"
+    tags: [PLT, OCaml]
+    description: >
+      Algebraic effect handlers offer a principled, composable abstraction for programming
+      with side effects, unifying exceptions, async I/O, and coroutines under a single
+      framework. This line of work spans foundational theory, compilation strategies, and
+      practical integration into OCaml and WebAssembly.
+    related_opensource:
+      - text: "OCaml 5: Multicore &amp; Algebraic Effects"
+        url: /opensource/#ocaml-5-multicore--algebraic-effects
+    publications:
+      - title: Continuing WebAssembly with Effect Handlers
+        authors: Luna Phipps-Costin et al.
+        venue: OOPSLA 2023
+      - title: "Eio 1.0 – Effects-based IO for OCaml 5"
+        authors: Thomas Leonard et al.
+        venue: OCaml Workshop 2023
+      - title: Composing Schedulers using Effect Handlers
+        authors: Deepali Ande, KC Sivaramakrishnan
+        venue: OCaml Workshop 2022
+      - title: Retrofitting Effect Handlers to OCaml
+        authors: KC Sivaramakrishnan et al.
+        venue: PLDI 2021
+      - title: Experiences with Effects
+        authors: Thomas Leonard et al.
+        venue: OCaml Workshop 2021
+      - title: Concurrent System Programming with Effect Handlers
+        authors: Stephen Dolan et al.
+        venue: TFP 2017
+      - title: Continuation Passing Style for Effect Handlers
+        authors: Daniel Hillerström et al.
+        venue: FSCD 2017
+      - title: Eff Directly in OCaml
+        authors: Oleg Kiselyov, KC Sivaramakrishnan
+        venue: ML Workshop 2016
+      - title: Compiling Links Effect Handlers to the OCaml Backend
+        authors: Daniel Hillerström et al.
+        venue: ML Workshop 2016
+      - title: Effectively Tackling the Awkward Squad
+        authors: Stephen Dolan et al.
+        venue: ML Workshop 2017
+      - title: Effective Concurrency with Algebraic Effects
+        authors: Stephen Dolan et al.
+        venue: OCaml Workshop 2015
+      - title: Effectively Composing Concurrency Libraries
+        authors: Deepali Ande et al.
+        venue: Working Draft 2023
+
+  - title: "Concurrency &amp; Parallelism"
+    tags: [OCaml, Systems]
+    description: >
+      Building the theory and infrastructure for safe, scalable concurrent and parallel
+      programming. The flagship contribution is Multicore OCaml, which introduced parallel
+      domains and effect handlers into OCaml 5, alongside work on scheduling, lock-free
+      data structures, and testing tools for concurrent programs.
+    related_opensource:
+      - text: "OCaml 5: Multicore &amp; Algebraic Effects"
+        url: /opensource/#ocaml-5-multicore--algebraic-effects
+      - text: "Multicore Runtimes &amp; Performance"
+        url: /opensource/#multicore-runtimes--performance
+    publications:
+      - title: Retrofitting Parallelism onto OCaml
+        authors: KC Sivaramakrishnan et al.
+        venue: "ICFP 2020, Distinguished Paper"
+      - title: Parallelising your OCaml Code with Multicore OCaml
+        authors: Sadiq Jaffer et al.
+        venue: OCaml Workshop 2020
+      - title: Adapting the OCaml Ecosystem for Multicore OCaml
+        authors: Sudha Parimala et al.
+        venue: OCaml Workshop 2021
+      - title: "Parafuzz: Coverage-guided Property Fuzzing for Multicore OCaml"
+        authors: Sumit Padhiyar et al.
+        venue: OCaml Workshop 2021
+      - title: Building a Lock-free STM for OCaml
+        authors: Vesa Karvonen et al.
+        venue: OCaml Workshop 2023
+      - title: Lock-free Programming for the Masses
+        authors: KC Sivaramakrishnan, Théo Laurent
+        venue: OCaml Workshop 2016
+      - title: "ConFuzz: Coverage-guided Property Fuzzing for Event-driven Programs"
+        authors: Sumit Padhiyar, KC Sivaramakrishnan
+        venue: "PADL 2023, Distinguished Paper"
+      - title: Composable Scheduler Activations for Haskell
+        authors: KC Sivaramakrishnan et al.
+        venue: JFP 2016
+      - title: "MultiMLton: A Multicore-aware Runtime for Standard ML"
+        authors: KC Sivaramakrishnan et al.
+        venue: JFP 2014
+      - title: "Rx-CML: A Prescription for Safely Relaxing Synchrony"
+        authors: KC Sivaramakrishnan et al.
+        venue: PADL 2014
+      - title: Composable Asynchronous Events
+        authors: Lukasz Ziarek et al.
+        venue: PLDI 2011
+      - title: Migrating MultiMLton to the Cloud
+        authors: KC Sivaramakrishnan et al.
+        venue: ML Workshop 2013
+      - title: Scalable Lightweight Task Management Schemes for MIMD Processors
+        authors: Daniel Waddington et al.
+        venue: SFMA 2011
+      - title: Featherweight Threads for Communication
+        authors: KC Sivaramakrishnan et al.
+        venue: Purdue TR 2011
+      - title: Design Rationale for MultiMLton
+        authors: Suresh Jagannathan et al.
+        venue: ML Workshop 2010
+      - title: Lightweight Asynchrony using Parasitic Threads
+        authors: KC Sivaramakrishnan et al.
+        venue: DAMP 2010
+      - title: Partial Memoization of Concurrency and Communication
+        authors: Lukasz Ziarek et al.
+        venue: ICFP 2009
+
+  - title: "Distributed Systems &amp; Consistency"
+    tags: [Systems]
+    description: >
+      Programming language approaches to the challenges of distributed consistency, including
+      mergeable replicated data types, coordination-free transactions, and declarative models
+      for eventually consistent stores. This work shows how functional abstractions can tame
+      the complexity of weak consistency.
+    related_opensource:
+      - text: "Distributed &amp; Eventually Consistent Systems"
+        url: /opensource/#distributed--eventually-consistent-systems
+    publications:
+      - title: Sal&#58; Multi-modal Verification of Replicated Data Types
+        authors: Pranav Ramesh et al.
+        venue: Working Draft 2026
+      - title: Automatically Verifying Replication-aware Linearizability
+        authors: Vimala Soundarapandian et al.
+        venue: OOPSLA 2025
+      - title: Certified Mergeable Replicated Datatypes
+        authors: Vimala Soundarapandian et al.
+        venue: PLDI 2022
+      - title: Marrying Replicated and Functional Data Structures
+        authors: Vimala Soundarapandian et al.
+        venue: PaPoC 2022
+      - title: Certified Mergeable Replicated Data Types
+        authors: Vimala Soundarapandian et al.
+        venue: PaPoC 2021
+      - title: "Banyan: Coordination-free Distributed Transactions over Mergeable Types"
+        authors: Shashank Dubey et al.
+        venue: APLAS 2020
+      - title: Mergeable Replicated Data Types
+        authors: Gowtham Kaki et al.
+        venue: OOPSLA 2019
+      - title: Version Control Is For Your Data Too
+        authors: Gowtham Kaki et al.
+        venue: SNAPL 2019
+      - title: Safe Replication through Bounded Concurrency Verification
+        authors: Gowtham Kaki et al.
+        venue: OOPSLA 2018
+      - title: An Architecture for Interspatial Communication
+        authors: Anil Madhavapeddy et al.
+        venue: HotPOST 2018
+      - title: "DaLi: Database as a Library"
+        authors: Gowtham Kaki et al.
+        venue: SNAPL 2017
+      - title: Mergeable Types
+        authors: Gowtham Kaki et al.
+        venue: ML Workshop 2017
+      - title: Representation without Taxation
+        authors: KC Sivaramakrishnan et al.
+        venue: "IEEE Data Engineering Bulletin 2016, Invited"
+      - title: Declarative Programming over Eventually Consistent Data Stores
+        authors: KC Sivaramakrishnan et al.
+        venue: PLDI 2015
+      - title: Functional Programming Abstractions for Weakly Consistent Systems
+        authors: KC Sivaramakrishnan
+        venue: "PhD Dissertation, Purdue 2014"
+
+  - title: "Memory Management &amp; Runtime Systems"
+    tags: [OCaml, Systems]
+    description: >
+      Designing and verifying the runtime substrate of functional languages, from garbage
+      collectors to memory models. This work includes a mechanically verified GC for OCaml
+      and techniques for reducing runtime overheads in concurrent settings.
+    related_opensource:
+      - text: "Multicore Runtimes &amp; Performance"
+        url: /opensource/#multicore-runtimes--performance
+    publications:
+      - title: A Mechanically Verified Garbage Collector for OCaml
+        authors: Sheera Shamsu et al.
+        venue: Journal of Automated Reasoning 2025
+      - title: A Mechanically Verified Garbage Collector for OCaml
+        authors: Sheera Shamsu et al.
+        venue: OCaml Workshop 2025
+      - title: Bounding Data Races in Space and Time
+        authors: Stephen Dolan et al.
+        venue: PLDI 2018
+      - title: A Memory Model for Multicore OCaml
+        authors: Stephen Dolan, KC Sivaramakrishnan
+        venue: OCaml Workshop 2017
+      - title: A Coherent and Managed Runtime for ML on the SCC
+        authors: KC Sivaramakrishnan et al.
+        venue: "MARC 2012, Best Paper"
+      - title: Eliminating Read Barriers through Procrastination and Cleanliness
+        authors: KC Sivaramakrishnan et al.
+        venue: ISMM 2012
+
+  - title: "Formal Verification &amp; Safety"
+    tags: [PLT]
+    description: >
+      Applying formal methods to verify correctness and security properties of systems.
+      This includes session types for safe distributed interaction, mechanised proofs for
+      critical infrastructure, and compartmentalisation for mixed-language security.
+    publications:
+      - title: "FIDES: End-to-end Compartments for Mixed-language Systems"
+        authors: Sai Venkata Krishnan et al.
+        venue: AsiaCCS 2026
+      - title: "TallyGuard: Privacy Preserving Tallied-as-cast Guarantee"
+        authors: Athish Pranav Dharmalingam et al.
+        venue: Working Draft 2025
+      - title: Efficient Sessions
+        authors: KC Sivaramakrishnan et al.
+        venue: Science of Computer Programming 2014
+      - title: Efficient Session Type Guided Distributed Interaction
+        authors: KC Sivaramakrishnan et al.
+        venue: "COORDINATION 2010, Distinguished Paper"
