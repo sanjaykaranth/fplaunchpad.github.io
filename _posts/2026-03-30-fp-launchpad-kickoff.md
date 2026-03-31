@@ -54,6 +54,8 @@ All sessions include opportunities for Q&A and discussion.
 
 We present work on combining LLMs with Lean 4, the proof assistant, to build verifiably correct representations of legal statutes. Our approach establishes 1:1 correspondence between natural-language law and machine-checkable code, enabling provable correctness of rule application, automatic contradiction detection across large statute bodies, and fully auditable, deterministic outputs. We share early results from formalizing provisions of the Indian Income Tax Act 2025 and argue that "Verified AI" is not an academic luxury but an emerging requirement for legitimate digital governance.
 
+**Bio.** Krishnan is CTO and co-founder of Pramaana Labs, a venture-backed company building technology to make AI outputs provably trustworthy in objective domains. Previously, he was an Engineering Leader at Glean where he built the assistant product, driving major reductions in hallucination, and was a Staff Engineer at Google leading modelling efforts for verifying Maps data correctness. Across his entire career, his passion has been turning powerful but opaque AI into verified, structured intelligence.
+
 ### From Precise Analysis to Efficient JIT Optimization — The Story of an Object Transformed by CompL {#thakur}
 
 **[Manas Thakur](https://www.cse.iitb.ac.in/~manas/)** --- Assistant Professor, IIT Bombay
