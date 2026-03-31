@@ -13,9 +13,6 @@ Registration opens at 9:30 AM. The inauguration begins at 10:00 AM with welcomin
 
 <div class="schedule-table" markdown="0">
 <table>
-  <colgroup>
-    <col/><col/><col/>
-  </colgroup>
   <thead>
     <tr><th>Time</th><th>Speaker</th><th>Title</th></tr>
   </thead>

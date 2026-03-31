@@ -44,9 +44,7 @@ h6:hover .anchor-link {
 }
 
 .schedule-table table {
-  width: 100%;
   min-width: 700px;
-  table-layout: fixed;
   font-size: 0.9em;
 }
 
@@ -54,12 +52,7 @@ h6:hover .anchor-link {
 .schedule-table th {
   padding: 8px 12px;
   vertical-align: top;
-  word-wrap: break-word;
 }
-
-.schedule-table col:nth-child(1) { width: 15%; }
-.schedule-table col:nth-child(2) { width: 35%; }
-.schedule-table col:nth-child(3) { width: 50%; }
 
 .schedule-table td:first-child {
   white-space: nowrap;
