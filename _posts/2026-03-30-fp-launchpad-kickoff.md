@@ -7,7 +7,7 @@ image: /assets/images/logo_with_name.png
 
 FP Launchpad will hold its kickoff on **Monday, April 13, 2026** at the **IC&SR Building, IIT Madras**. The day-long event features talks by leading researchers from industry and academia, covering hardware design, security, formal verification, compilers, programming languages, and AI-augmented software engineering.
 
-Registration opens at 9:00 AM. The inauguration begins at 10:00 AM with welcoming remarks from Dr KC Sivaramakrishnan (Centre Head) and the Director of IIT Madras.
+Registration and breakfast begin at 9:00 AM. The inauguration begins at 10:00 AM with welcoming remarks from Dr KC Sivaramakrishnan (Centre Head) and the Director of IIT Madras.
 
 ## Schedule
 
@@ -17,7 +17,7 @@ Registration opens at 9:00 AM. The inauguration begins at 10:00 AM with welcomin
     <tr><th>Time</th><th>Speaker</th><th>Title</th></tr>
   </thead>
   <tbody>
-    <tr style="background-color: #f0f0f0;"><td>09:00 &ndash; 10:00</td><td colspan="2" style="text-align: center;"><strong>Registration + Breakfast</strong></td></tr>
+    <tr style="background-color: #f0f0f0;"><td>09:00 &ndash; 09:45</td><td colspan="2" style="text-align: center;"><strong>Registration + Breakfast</strong></td></tr>
     <tr><td>10:00 &ndash; 10:30</td><td>* <a href="https://kcsrk.info">KC Sivaramakrishnan</a>, Assistant Professor, IIT Madras <br/> * Director, IITM</td><td>Inauguration</td></tr>
     <tr><td>10:30 &ndash; 11:15</td><td><a href="https://github.com/rsnikhil">Rishiyur S. Nikhil</a>, CTO and Co-founder, <a href="https://bluespec.com/">Bluespec</a></td><td><a href="#nikhil">Functional Programming and Concurrent Atomic Transactions for Complex Hardware Design</a></td></tr>
     <tr style="background-color: #f0f0f0;"><td>11:15 &ndash; 11:30</td><td colspan="2" style="text-align: center;"><strong>Networking break</strong></td></tr>
