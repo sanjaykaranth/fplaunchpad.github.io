@@ -7,7 +7,7 @@ image: /assets/images/logo_with_name.png
 
 FP Launchpad will hold its kickoff on **Monday, April 13, 2026** at the **IC&SR Building, IIT Madras**. The day-long event features talks by leading researchers from industry and academia, covering hardware design, security, formal verification, compilers, programming languages, and AI-augmented software engineering.
 
-Registration opens at 9:30 AM. The inauguration begins at 10:00 AM with welcoming remarks from Dr KC Sivaramakrishnan (Centre Head) and the Director of IIT Madras.
+Registration opens at 9:00 AM. The inauguration begins at 10:00 AM with welcoming remarks from Dr KC Sivaramakrishnan (Centre Head) and the Director of IIT Madras.
 
 ## Schedule
 
@@ -17,19 +17,19 @@ Registration opens at 9:30 AM. The inauguration begins at 10:00 AM with welcomin
     <tr><th>Time</th><th>Speaker</th><th>Title</th></tr>
   </thead>
   <tbody>
-    <tr style="background-color: #f0f0f0;"><td>09:30 &ndash; 10:00</td><td colspan="2" style="text-align: center;"><strong>Registration</strong></td></tr>
-    <tr><td>10:00 &ndash;10:30</td><td>* <a href="https://kcsrk.info">KC Sivaramakrishnan</a>, Assistant Professor, IIT Madras <br/> * Director, IITM</td><td>Inauguration</td></tr>
-    <tr><td>10:30 &ndash;11:15</td><td><a href="https://github.com/rsnikhil">Rishiyur S. Nikhil</a>, CTO and Co-founder, <a href="https://bluespec.com/">Bluespec</a></td><td><a href="#nikhil">Functional Programming and Concurrent Atomic Transactions for Complex Hardware Design</a></td></tr>
+    <tr style="background-color: #f0f0f0;"><td>09:00 &ndash; 10:00</td><td colspan="2" style="text-align: center;"><strong>Registration + Breakfast</strong></td></tr>
+    <tr><td>10:00 &ndash; 10:30</td><td>* <a href="https://kcsrk.info">KC Sivaramakrishnan</a>, Assistant Professor, IIT Madras <br/> * Director, IITM</td><td>Inauguration</td></tr>
+    <tr><td>10:30 &ndash; 11:15</td><td><a href="https://github.com/rsnikhil">Rishiyur S. Nikhil</a>, CTO and Co-founder, <a href="https://bluespec.com/">Bluespec</a></td><td><a href="#nikhil">Functional Programming and Concurrent Atomic Transactions for Complex Hardware Design</a></td></tr>
     <tr style="background-color: #f0f0f0;"><td>11:15 &ndash; 11:30</td><td colspan="2" style="text-align: center;"><strong>Networking break</strong></td></tr>
-    <tr><td>11:30 &ndash;12:15</td><td><a href="https://www.cse.iitm.ac.in/~chester/">Chester Rebeiro</a>, Professor, IIT Madras</td><td>Trusted hardware for security critical software</td></tr>
-    <tr><td>12:15 &ndash;01:00</td><td><a href="https://www.linkedin.com/in/krishnan-raghavan-834aa091/">Krishnan Raghavan</a>, CTO and Co-founder, <a href="https://www.pramaanalabs.ai/">Pramaana Labs</a></td><td>Towards verifiable governance with LLMs and Lean</td></tr>
+    <tr><td>11:30 &ndash; 12:15</td><td><a href="https://www.cse.iitm.ac.in/~chester/">Chester Rebeiro</a>, Professor, IIT Madras</td><td>Trusted hardware for security critical software</td></tr>
+    <tr><td>12:15 &ndash; 01:00</td><td><a href="https://www.linkedin.com/in/krishnan-raghavan-834aa091/">Krishnan Raghavan</a>, CTO and Co-founder, <a href="https://www.pramaanalabs.ai/">Pramaana Labs</a></td><td>Towards verifiable governance with LLMs and Lean</td></tr>
     <tr style="background-color: #f0f0f0;"><td>01:00 &ndash; 02:15</td><td colspan="2" style="text-align: center;"><strong>Networking lunch</strong></td></tr>
-    <tr><td>02:15 &ndash;03:00</td><td><a href="https://www.cse.iitb.ac.in/~manas/">Manas Thakur</a>, Assistant Professor, IIT Bombay</td><td><a href="#thakur">From Precise Analysis to Efficient JIT Optimization — The Story of an Object Transformed by CompL</a></td></tr>
-    <tr><td>03:00 &ndash;03:45</td><td><a href="https://anil.recoil.org/">Anil Madhavapeddy</a>, Professor, University of Cambridge</td><td><a href="#madhavapeddy">TESSERA: Functionally Programming Petabytes of Earth Observations</a></td></tr>
+    <tr><td>02:15 &ndash; 03:00</td><td><a href="https://www.cse.iitb.ac.in/~manas/">Manas Thakur</a>, Assistant Professor, IIT Bombay</td><td><a href="#thakur">From Precise Analysis to Efficient JIT Optimization — The Story of an Object Transformed by CompL</a></td></tr>
+    <tr><td>03:00 &ndash; 03:45</td><td><a href="https://anil.recoil.org/">Anil Madhavapeddy</a>, Professor, University of Cambridge</td><td><a href="#madhavapeddy">TESSERA: Functionally Programming Petabytes of Earth Observations</a></td></tr>
     <tr style="background-color: #f0f0f0;"><td>03:45 &ndash; 04:15</td><td colspan="2" style="text-align: center;"><strong>Networking break</strong></td></tr>
-    <tr><td>04:15 &ndash;04:30</td><td>Ron Minsky, Jane Street (Remote)</td><td>Donor Address</td></tr>
-    <tr><td>04:30 &ndash;05:15</td><td><a href="https://cs.brown.edu/~sk/">Shriram Krishnamurthi</a>, Professor, Brown University (Remote)</td><td><a href="#krishnamurthi">A Programming Language for Lightweight Diagramming</a></td></tr>
-    <tr><td>05:15 &ndash;06:00</td><td><a href="https://ilyasergey.net/">Ilya Sergey</a>, Associate Professor, National University of Singapore</td><td><a href="#sergey">Mechanising a Regex-Based Borrow Checker: An Experiment in AI-Assisted Metatheory</a></td></tr>
+    <tr><td>04:15 &ndash; 04:30</td><td>Ron Minsky, Jane Street (Remote)</td><td>Donor Address</td></tr>
+    <tr><td>04:30 &ndash; 05:15</td><td><a href="https://cs.brown.edu/~sk/">Shriram Krishnamurthi</a>, Professor, Brown University (Remote)</td><td><a href="#krishnamurthi">A Programming Language for Lightweight Diagramming</a></td></tr>
+    <tr><td>05:15 &ndash; 06:00</td><td><a href="https://ilyasergey.net/">Ilya Sergey</a>, Associate Professor, National University of Singapore</td><td><a href="#sergey">Mechanising a Regex-Based Borrow Checker: An Experiment in AI-Assisted Metatheory</a></td></tr>
   </tbody>
 </table>
 </div>
