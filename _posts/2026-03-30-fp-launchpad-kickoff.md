@@ -40,7 +40,7 @@ All sessions include opportunities for Q&A and discussion.
 
 ### Functional Programming and Concurrent Atomic Transactions for Complex Hardware Design {#nikhil}
 
-**Rishiyur S. Nikhil, Ph.D.** --- Co-founder and CTO, <a href="https://bluespec.com/">Bluespec</a>, Inc.
+**[Rishiyur S. Nikhil, Ph.D.](https://github.com/rsnikhil)** --- Co-founder and CTO, <a href="https://bluespec.com/">Bluespec</a>, Inc.
 
 **Abstract.** For several decades, most hardware (HW) has been designed using certain legacy programming languages (Verilog and VHDL). In this talk we'll show how we can move from these somewhat impoverished legacy languages to more advanced HW-design languages, applying the same ideas that have given us high-level languages for software: Functional Programming, Atomic Transactions, Expressive Types, Strong Typing, Higher-order Parameterization, Modularity and Compositionality, and so on. We will also identify some future research directions.
 
@@ -75,6 +75,8 @@ I will present our recent work on static-analysis–guided optimistic stack allo
 Towards this we release global, annual, 10m, pixel-wise embeddings together with open weights and code and lightweight adaptation heads, providing practical tooling for large-scale retrieval and inference at planetary scale. As with any good foundation model, there are a staggering array of downstream tasks which can benefit. TESSERA embeddings deliver state-of-the-art accuracy with high label efficiency across diverse classification, segmentation, and regression tasks.
 
 In this talk, I'll take you through an array of problems our users are applying it to, ranging from the ecological to the urban to the temporal. By the end of the talk, I'll aim to have you identify a seemingly impossible spatial problem that is now within range to solve yourself using our O(x)Caml, Python or Typescript interfaces. Bring your favourite coding agents too!
+
+**Bio.** Anil Madhavapeddy is the Professor of Planetary Computing at the University of Cambridge Computer Laboratory. He co-leads the Energy and Environment Group at Cambridge and also co-directs the Centre for Earth Observation and the Cambridge Centre for Carbon Credits (4C), which aims to increase the integrity and effectiveness of natural climate solutions via the application of modern remote sensing. He has decades of experience with constructing Internet-scale systems and has contributed to some of the most widely deployed open-source projects in the world such as Docker, Xen, OCaml and OpenBSD, with users ranging from all the major cloud computing providers to governments worldwide.
 
 ### A Programming Language for Lightweight Diagramming {#krishnamurthi}
 
