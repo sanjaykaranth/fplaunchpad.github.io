@@ -27,7 +27,7 @@ Registration and breakfast begin at 9:00 AM. The inauguration begins at 10:00 AM
     <tr><td>02:15 &ndash; 03:00</td><td><a href="https://www.cse.iitb.ac.in/~manas/">Manas Thakur</a>, Assistant Professor, IIT Bombay</td><td><a href="#thakur">From Precise Analysis to Efficient JIT Optimization — The Story of an Object Transformed by CompL</a></td></tr>
     <tr><td>03:00 &ndash; 03:45</td><td><a href="https://anil.recoil.org/">Anil Madhavapeddy</a>, Professor, University of Cambridge</td><td><a href="#madhavapeddy">TESSERA: Functionally Programming Petabytes of Earth Observations</a></td></tr>
     <tr style="background-color: #f0f0f0;"><td>03:45 &ndash; 04:15</td><td colspan="2" style="text-align: center;"><strong>Networking break</strong></td></tr>
-    <tr><td>04:15 &ndash; 04:30</td><td>Ron Minsky, Jane Street (Remote)</td><td>Donor Address</td></tr>
+    <tr><td>04:15 &ndash; 04:30</td><td>Yaron Minsky, Jane Street (Remote)</td><td>Donor Address</td></tr>
     <tr><td>04:30 &ndash; 05:15</td><td><a href="https://cs.brown.edu/~sk/">Shriram Krishnamurthi</a>, Professor, Brown University (Remote)</td><td><a href="#krishnamurthi">A Programming Language for Lightweight Diagramming</a></td></tr>
     <tr><td>05:15 &ndash; 06:00</td><td><a href="https://ilyasergey.net/">Ilya Sergey</a>, Associate Professor, National University of Singapore</td><td><a href="#sergey">Mechanising a Regex-Based Borrow Checker: An Experiment in AI-Assisted Metatheory</a></td></tr>
   </tbody>
