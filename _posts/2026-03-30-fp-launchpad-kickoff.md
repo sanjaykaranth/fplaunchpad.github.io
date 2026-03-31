@@ -22,7 +22,7 @@ Registration and breakfast begin at 9:00 AM. The inauguration begins at 10:00 AM
     <tr><td>10:30 &ndash; 11:15</td><td><a href="https://github.com/rsnikhil">Rishiyur S. Nikhil</a>, CTO and Co-founder, <a href="https://bluespec.com/">Bluespec</a></td><td><a href="#nikhil">Functional Programming and Concurrent Atomic Transactions for Complex Hardware Design</a></td></tr>
     <tr style="background-color: #f0f0f0;"><td>11:15 &ndash; 11:30</td><td colspan="2" style="text-align: center;"><strong>Networking break</strong></td></tr>
     <tr><td>11:30 &ndash; 12:15</td><td><a href="https://www.cse.iitm.ac.in/~chester/">Chester Rebeiro</a>, Professor, IIT Madras</td><td>Trusted hardware for security critical software</td></tr>
-    <tr><td>12:15 &ndash; 01:00</td><td><a href="https://www.linkedin.com/in/krishnan-raghavan-834aa091/">Krishnan Raghavan</a>, CTO and Co-founder, <a href="https://www.pramaanalabs.ai/">Pramaana Labs</a></td><td>Towards verifiable governance with LLMs and Lean</td></tr>
+    <tr><td>12:15 &ndash; 01:00</td><td><a href="https://www.linkedin.com/in/krishnan-raghavan-834aa091/">Krishnan Raghavan</a>, CTO and Co-founder, <a href="https://www.pramaanalabs.ai/">Pramaana Labs</a></td><td><a href="#raghavan">Towards verifiable governance with LLMs and Lean</a></td></tr>
     <tr style="background-color: #f0f0f0;"><td>01:00 &ndash; 02:15</td><td colspan="2" style="text-align: center;"><strong>Networking lunch</strong></td></tr>
     <tr><td>02:15 &ndash; 03:00</td><td><a href="https://www.cse.iitb.ac.in/~manas/">Manas Thakur</a>, Assistant Professor, IIT Bombay</td><td><a href="#thakur">From Precise Analysis to Efficient JIT Optimization — The Story of an Object Transformed by CompL</a></td></tr>
     <tr><td>03:00 &ndash; 03:45</td><td><a href="https://anil.recoil.org/">Anil Madhavapeddy</a>, Professor, University of Cambridge</td><td><a href="#madhavapeddy">TESSERA: Functionally Programming Petabytes of Earth Observations</a></td></tr>
@@ -45,6 +45,14 @@ All sessions include opportunities for Q&A and discussion.
 **Abstract.** For several decades, most hardware (HW) has been designed using certain legacy programming languages (Verilog and VHDL). In this talk we'll show how we can move from these somewhat impoverished legacy languages to more advanced HW-design languages, applying the same ideas that have given us high-level languages for software: Functional Programming, Atomic Transactions, Expressive Types, Strong Typing, Higher-order Parameterization, Modularity and Compositionality, and so on. We will also identify some future research directions.
 
 **Bio.** Rishiyur Nikhil received his B.Tech. degree in EE from IIT Kanpur, and his Masters and Ph.D. degrees in Computer Science from U. Pennsylvania. He was a faculty member in MIT's Lab for Computer Science, researching functional programming, dataflow and multithreaded computer architectures, and continued this work at Digital Equipment Corp.'s Cambridge Research Lab. In 2003 he co-founded <a href="https://bluespec.com/">Bluespec</a>, Inc., and remains CTO, working on the BSV and BH High-Level Hardware Design Languages and their applications, using ideas from Haskell and atomic transactions. He has created several open-source RISC-V CPU and System designs, and chaired the RISC-V Foundation's technical group that selected the RISC-V ISA formal spec in Sail.
+
+### Towards verifiable governance with LLMs and Lean {#raghavan}
+
+**[Krishnan Raghavan](https://www.linkedin.com/in/krishnan-raghavan-834aa091/)** --- CTO and Co-founder, [Pramaana Labs](https://www.pramaanalabs.ai/)
+
+**Abstract.** When governments deploy AI in tax administration, regulatory compliance, or citizen-facing legal systems, correctness isn't optional --- it's a constitutional expectation. Yet today's LLMs offer fluency without guarantees, making them fundamentally unsuitable as the sole basis for governance infrastructure.
+
+We present work on combining LLMs with Lean 4, the proof assistant, to build verifiably correct representations of legal statutes. Our approach establishes 1:1 correspondence between natural-language law and machine-checkable code, enabling provable correctness of rule application, automatic contradiction detection across large statute bodies, and fully auditable, deterministic outputs. We share early results from formalizing provisions of the Indian Income Tax Act 2025 and argue that "Verified AI" is not an academic luxury but an emerging requirement for legitimate digital governance.
 
 ### From Precise Analysis to Efficient JIT Optimization — The Story of an Object Transformed by CompL {#thakur}
 
