@@ -29,12 +29,21 @@
           <div class="dropdown">
             <span class="page-link dropdown-toggle">Activities ▾</span>
             <div class="dropdown-menu">
+              <a class="page-link" href="{{ '/events/' | relative_url }}">Events</a>
               <a class="page-link" href="{{ '/research/' | relative_url }}">Research</a>
               <a class="page-link" href="{{ '/opensource/' | relative_url }}">Open Source</a>
               <a class="page-link" href="{{ '/education/' | relative_url }}">Education</a>
             </div>
           </div>
-          <a class="page-link" href="{{ '/team/' | relative_url }}">Team</a>
+          <div class="dropdown">
+            <span class="page-link dropdown-toggle">About Us ▾</span>
+            <div class="dropdown-menu">
+              <a class="page-link" href="{{ '/team/' | relative_url }}">Team</a>
+              <a class="page-link" href="{{ '/partners/' | relative_url }}">Partners</a>
+              <a class="page-link" href="{{ '/work-with-us/' | relative_url }}">Work with Us</a>
+              <a class="page-link" href="{{ '/contact/' | relative_url }}">Contact Us</a>
+            </div>
+          </div>
         </div>
 
         <style>
