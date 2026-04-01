@@ -28,7 +28,34 @@
             <a class="page-link" href="{{ my_page.url | relative_url }}">{{ my_page.title | escape }}</a>
             {%- endif -%}
           {%- endfor -%}
+          <div class="dropdown">
+            <span class="page-link dropdown-toggle">Activities ▾</span>
+            <div class="dropdown-menu">
+              <a class="page-link" href="{{ '/research/' | relative_url }}">Research</a>
+              <a class="page-link" href="{{ '/opensource/' | relative_url }}">Open Source</a>
+              <a class="page-link" href="{{ '/education/' | relative_url }}">Education</a>
+            </div>
+          </div>
+          <a class="page-link" href="{{ '/team/' | relative_url }}">Team</a>
         </div>
+
+        <style>
+          .dropdown { display: inline-block; position: relative; }
+          .dropdown-toggle { cursor: pointer; }
+          .dropdown-menu {
+            display: none;
+            position: absolute;
+            right: 0;
+            background: #fdfdfd;
+            border: 1px solid #e8e8e8;
+            border-radius: 4px;
+            min-width: 140px;
+            z-index: 100;
+            padding: 4px 0;
+          }
+          .dropdown-menu .page-link { display: block; padding: 6px 16px; white-space: nowrap; }
+          .dropdown:hover .dropdown-menu { display: block; }
+        </style>
       </nav>
     {%- endif -%}
   </div>
