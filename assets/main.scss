@@ -37,6 +37,27 @@ h6:hover .anchor-link {
   color: #2a7ae2;
 }
 
+/* Schedule table */
+.schedule-table {
+  overflow-x: auto;
+  margin: 1em 0;
+}
+
+.schedule-table table {
+  min-width: 700px;
+  font-size: 0.9em;
+}
+
+.schedule-table td,
+.schedule-table th {
+  padding: 8px 12px;
+  vertical-align: top;
+}
+
+.schedule-table td:first-child {
+  white-space: nowrap;
+}
+
 /* FAQ spacing */
 details {
   margin-bottom: 1em;
