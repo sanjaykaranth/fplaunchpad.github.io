@@ -41,6 +41,9 @@ flowchart TD
 {% for node in site.data.education.nodes %}
     click {{ node.id }} href "{{ node.url }}" _blank
 {% endfor %}
+
+    classDef external fill:#fff8e1,stroke:#f0a500,color:#111
+    class C,E,G,H external
 </div>
 
-<p style="font-size:0.85rem; color:#828282;">Click any node to open the tutorial. Arrows indicate prerequisites.</p>
+<p style="font-size:0.85rem; color:#828282;">Click any node to open the tutorial. Arrows indicate prerequisites. <span style="display:inline-block; background:#fff8e1; border:1px solid #f0a500; border-radius:3px; padding:1px 8px;">highlighted</span> nodes are external resources not created by FP Launchpad.</p>

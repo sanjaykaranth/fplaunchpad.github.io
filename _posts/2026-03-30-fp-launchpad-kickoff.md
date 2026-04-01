@@ -5,6 +5,10 @@ date: 2026-03-30
 image: /assets/images/logo_with_name.png
 ---
 
+<style>
+.sp { width: 32px; height: 32px; border-radius: 50%; object-fit: cover; vertical-align: middle; margin-right: 0.4rem; border: 1px solid #e0e0e0; }
+</style>
+
 FP Launchpad will hold its kickoff on **Monday, April 13, 2026** at the **IC&SR Building, IIT Madras**. The day-long event features talks by leading researchers from industry and academia, covering hardware design, security, formal verification, compilers, programming languages, and AI-augmented software engineering.
 
 Registration and breakfast begin at 9:00 AM. The inauguration begins at 10:00 AM with welcoming remarks from Dr KC Sivaramakrishnan (Centre Head) and the Director of IIT Madras.
@@ -18,18 +22,18 @@ Registration and breakfast begin at 9:00 AM. The inauguration begins at 10:00 AM
   </thead>
   <tbody>
     <tr style="background-color: #f0f0f0;"><td>09:00 &ndash; 09:45</td><td colspan="2" style="text-align: center;"><strong>Registration + Breakfast</strong></td></tr>
-    <tr><td>10:00 &ndash; 10:30</td><td>* <a href="https://kcsrk.info">KC Sivaramakrishnan</a>, Assistant Professor, IIT Madras <br/> * Director, IITM</td><td>Inauguration</td></tr>
-    <tr><td>10:30 &ndash; 11:15</td><td><a href="https://github.com/rsnikhil">Rishiyur S. Nikhil</a>, CTO and Co-founder, <a href="https://bluespec.com/">Bluespec</a></td><td><a href="#nikhil">Functional Programming and Concurrent Atomic Transactions for Complex Hardware Design</a></td></tr>
+    <tr><td>10:00 &ndash; 10:30</td><td><img class="sp" src="https://kcsrk.info/assets/profile.jpeg" alt="KC Sivaramakrishnan"><a href="https://kcsrk.info">KC Sivaramakrishnan</a>, Assistant Professor, IIT Madras<br/>* Director, IITM</td><td>Inauguration</td></tr>
+    <tr><td>10:30 &ndash; 11:15</td><td><img class="sp" src="https://avatars.githubusercontent.com/u/3867081?v=4" alt="Rishiyur S. Nikhil"><a href="https://github.com/rsnikhil">Rishiyur S. Nikhil</a>, CTO and Co-founder, <a href="https://bluespec.com/">Bluespec</a></td><td><a href="#nikhil">Functional Programming and Concurrent Atomic Transactions for Complex Hardware Design</a></td></tr>
     <tr style="background-color: #f0f0f0;"><td>11:15 &ndash; 11:30</td><td colspan="2" style="text-align: center;"><strong>Networking break</strong></td></tr>
-    <tr><td>11:30 &ndash; 12:15</td><td><a href="https://www.cse.iitm.ac.in/~chester/">Chester Rebeiro</a>, Professor, IIT Madras</td><td><a href="#rebeiro">Trusted hardware for security critical software</a></td></tr>
-    <tr><td>12:15 &ndash; 01:00</td><td><a href="https://www.linkedin.com/in/krishnan-raghavan-834aa091/">Krishnan Raghavan</a>, CTO and Co-founder, <a href="https://www.pramaanalabs.ai/">Pramaana Labs</a></td><td><a href="#raghavan">Towards verifiable governance with LLMs and Lean</a></td></tr>
+    <tr><td>11:30 &ndash; 12:15</td><td><img class="sp" src="https://www.cse.iitm.ac.in/~chester/pubs/chet.png" alt="Chester Rebeiro"><a href="https://www.cse.iitm.ac.in/~chester/">Chester Rebeiro</a>, Professor, IIT Madras</td><td><a href="#rebeiro">Trusted hardware for security critical software</a></td></tr>
+    <tr><td>12:15 &ndash; 01:00</td><td><img class="sp" src="https://media.licdn.com/dms/image/v2/C5603AQGjQKQtzd8A_Q/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1647665493390?e=2147483647&v=beta&t=ZyRZiDVsvFHmwT1nMmXSL0k0gs45oSEw0Aox4B5SYnE" alt="Krishnan Raghavan"><a href="https://www.linkedin.com/in/krishnan-raghavan-834aa091/">Krishnan Raghavan</a>, CTO and Co-founder, <a href="https://www.pramaanalabs.ai/">Pramaana Labs</a></td><td><a href="#raghavan">Towards verifiable governance with LLMs and Lean</a></td></tr>
     <tr style="background-color: #f0f0f0;"><td>01:00 &ndash; 02:15</td><td colspan="2" style="text-align: center;"><strong>Networking lunch</strong></td></tr>
-    <tr><td>02:15 &ndash; 03:00</td><td><a href="https://www.cse.iitb.ac.in/~manas/">Manas Thakur</a>, Assistant Professor, IIT Bombay</td><td><a href="#thakur">From Precise Analysis to Efficient JIT Optimization — The Story of an Object Transformed by CompL</a></td></tr>
-    <tr><td>03:00 &ndash; 03:45</td><td><a href="https://anil.recoil.org/">Anil Madhavapeddy</a>, Professor, University of Cambridge</td><td><a href="#madhavapeddy">TESSERA: Functionally Programming Petabytes of Earth Observations</a></td></tr>
+    <tr><td>02:15 &ndash; 03:00</td><td><img class="sp" src="https://www.cse.iitb.ac.in/~manas/images/profile.jpg" alt="Manas Thakur"><a href="https://www.cse.iitb.ac.in/~manas/">Manas Thakur</a>, Assistant Professor, IIT Bombay</td><td><a href="#thakur">From Precise Analysis to Efficient JIT Optimization — The Story of an Object Transformed by CompL</a></td></tr>
+    <tr><td>03:00 &ndash; 03:45</td><td><img class="sp" src="https://anil.recoil.org/images/anil-headshot.webp" alt="Anil Madhavapeddy"><a href="https://anil.recoil.org/">Anil Madhavapeddy</a>, Professor, University of Cambridge</td><td><a href="#madhavapeddy">TESSERA: Functionally Programming Petabytes of Earth Observations</a></td></tr>
     <tr style="background-color: #f0f0f0;"><td>03:45 &ndash; 04:15</td><td colspan="2" style="text-align: center;"><strong>Networking break</strong></td></tr>
-    <tr><td>04:15 &ndash; 04:30</td><td>Yaron Minsky, Jane Street (Remote)</td><td>Donor Address</td></tr>
-    <tr><td>04:30 &ndash; 05:15</td><td><a href="https://cs.brown.edu/~sk/">Shriram Krishnamurthi</a>, Professor, Brown University (Remote)</td><td><a href="#krishnamurthi">A Programming Language for Lightweight Diagramming</a></td></tr>
-    <tr><td>05:15 &ndash; 06:00</td><td><a href="https://ilyasergey.net/">Ilya Sergey</a>, Associate Professor, National University of Singapore</td><td><a href="#sergey">Mechanising a Regex-Based Borrow Checker: An Experiment in AI-Assisted Metatheory</a></td></tr>
+    <tr><td>04:15 &ndash; 04:30</td><td><img class="sp" src="https://avatars.githubusercontent.com/u/715302?v=4" alt="Yaron Minsky">Yaron Minsky, Jane Street (Remote)</td><td>Donor Address</td></tr>
+    <tr><td>04:30 &ndash; 05:15</td><td><img class="sp" src="https://cs.brown.edu/~sk/Images/me-2019-04-10-small.jpg" alt="Shriram Krishnamurthi"><a href="https://cs.brown.edu/~sk/">Shriram Krishnamurthi</a>, Professor, Brown University (Remote)</td><td><a href="#krishnamurthi">A Programming Language for Lightweight Diagramming</a></td></tr>
+    <tr><td>05:15 &ndash; 06:00</td><td><img class="sp" src="https://ilyasergey.net/assets/img/ilya-2021-2.jpg" alt="Ilya Sergey"><a href="https://ilyasergey.net/">Ilya Sergey</a>, Associate Professor, National University of Singapore</td><td><a href="#sergey">Mechanising a Regex-Based Borrow Checker: An Experiment in AI-Assisted Metatheory</a></td></tr>
   </tbody>
 </table>
 </div>
@@ -40,7 +44,10 @@ All sessions include opportunities for Q&A and discussion.
 
 ### Functional Programming and Concurrent Atomic Transactions for Complex Hardware Design {#nikhil}
 
-**[Rishiyur S. Nikhil, Ph.D.](https://github.com/rsnikhil)** --- Co-founder and CTO, <a href="https://bluespec.com/">Bluespec</a>, Inc.
+<div style="display:flex; align-items:center; gap:0.75rem; margin-bottom:0.5rem;">
+<img src="https://avatars.githubusercontent.com/u/3867081?v=4" alt="Rishiyur S. Nikhil" style="width:48px;height:48px;border-radius:50%;object-fit:cover;border:1px solid #e0e0e0;flex-shrink:0;">
+<strong><a href="https://github.com/rsnikhil">Rishiyur S. Nikhil, Ph.D.</a></strong> &mdash; Co-founder and CTO, <a href="https://bluespec.com/">Bluespec</a>, Inc.
+</div>
 
 **Abstract.** For several decades, most hardware (HW) has been designed using certain legacy programming languages (Verilog and VHDL). In this talk we'll show how we can move from these somewhat impoverished legacy languages to more advanced HW-design languages, applying the same ideas that have given us high-level languages for software: Functional Programming, Atomic Transactions, Expressive Types, Strong Typing, Higher-order Parameterization, Modularity and Compositionality, and so on. We will also identify some future research directions.
 
@@ -62,7 +69,10 @@ Together, TESLA and FIDES illustrate a unified approach to hardware-enhanced sof
 
 ### Towards verifiable governance with LLMs and Lean {#raghavan}
 
-**[Krishnan Raghavan](https://www.linkedin.com/in/krishnan-raghavan-834aa091/)** --- CTO and Co-founder, [Pramaana Labs](https://www.pramaanalabs.ai/)
+<div style="display:flex; align-items:center; gap:0.75rem; margin-bottom:0.5rem;">
+<img src="https://media.licdn.com/dms/image/v2/C5603AQGjQKQtzd8A_Q/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1647665493390?e=2147483647&v=beta&t=ZyRZiDVsvFHmwT1nMmXSL0k0gs45oSEw0Aox4B5SYnE" alt="Krishnan Raghavan" style="width:48px;height:48px;border-radius:50%;object-fit:cover;border:1px solid #e0e0e0;flex-shrink:0;">
+<strong><a href="https://www.linkedin.com/in/krishnan-raghavan-834aa091/">Krishnan Raghavan</a></strong> &mdash; CTO and Co-founder, <a href="https://www.pramaanalabs.ai/">Pramaana Labs</a>
+</div>
 
 **Abstract.** When governments deploy AI in tax administration, regulatory compliance, or citizen-facing legal systems, correctness isn't optional --- it's a constitutional expectation. Yet today's LLMs offer fluency without guarantees, making them fundamentally unsuitable as the sole basis for governance infrastructure.
 
@@ -72,7 +82,10 @@ We present work on combining LLMs with Lean 4, the proof assistant, to build ver
 
 ### From Precise Analysis to Efficient JIT Optimization — The Story of an Object Transformed by CompL {#thakur}
 
-**[Manas Thakur](https://www.cse.iitb.ac.in/~manas/)** --- Assistant Professor, IIT Bombay
+<div style="display:flex; align-items:center; gap:0.75rem; margin-bottom:0.5rem;">
+<img src="https://www.cse.iitb.ac.in/~manas/images/profile.jpg" alt="Manas Thakur" style="width:48px;height:48px;border-radius:50%;object-fit:cover;border:1px solid #e0e0e0;flex-shrink:0;">
+<strong><a href="https://www.cse.iitb.ac.in/~manas/">Manas Thakur</a></strong> &mdash; Assistant Professor, IIT Bombay
+</div>
 
 **Abstract.** Object-oriented programming and just-in-time (JIT) compilation are two pillars of modern large software systems. Yet, combining them effectively poses challenges while designing performant systems: object allocation, memory access, and garbage collection introduce significant overheads, while JIT compilers must keep program analysis lightweight and fast. This talk explores how precise program analysis — traditionally considered too expensive for JIT settings — can enable aggressive memory optimizations in modern JVMs without sacrificing efficiency.
 
@@ -82,7 +95,10 @@ I will present our recent work on static-analysis–guided optimistic stack allo
 
 ### TESSERA: Functionally Programming Petabytes of Earth Observations {#madhavapeddy}
 
-**[Anil Madhavapeddy](https://anil.recoil.org/)** --- Professor of Planetary Computing, University of Cambridge
+<div style="display:flex; align-items:center; gap:0.75rem; margin-bottom:0.5rem;">
+<img src="https://anil.recoil.org/images/anil-headshot.webp" alt="Anil Madhavapeddy" style="width:48px;height:48px;border-radius:50%;object-fit:cover;border:1px solid #e0e0e0;flex-shrink:0;">
+<strong><a href="https://anil.recoil.org/">Anil Madhavapeddy</a></strong> &mdash; Professor of Planetary Computing, University of Cambridge
+</div>
 
 **Abstract.** I'll present TESSERA (geotessera.org), a pixel-wise foundation model for multi-modal (Sentinel-1/2) earth observation time series that learns robust, label-efficient embeddings. Our goal with TESSERA is to make manipulating global satellite intelligence as easy as LLMs did for natural language, but also with the robustness of functional programming!
 
@@ -94,7 +110,10 @@ In this talk, I'll take you through an array of problems our users are applying 
 
 ### A Programming Language for Lightweight Diagramming {#krishnamurthi}
 
-**[Shriram Krishnamurthi](https://cs.brown.edu/~sk/) and Siddhartha Prasad** --- Brown University
+<div style="display:flex; align-items:center; gap:0.75rem; margin-bottom:0.5rem;">
+<img src="https://cs.brown.edu/~sk/Images/me-2019-04-10-small.jpg" alt="Shriram Krishnamurthi" style="width:48px;height:48px;border-radius:50%;object-fit:cover;border:1px solid #e0e0e0;flex-shrink:0;">
+<strong><a href="https://cs.brown.edu/~sk/">Shriram Krishnamurthi</a> and Siddhartha Prasad</strong> &mdash; Brown University
+</div>
 
 **Abstract.** Formal modeling tools such as Alloy enable users to incrementally define, explore, verify, and diagnose specifications for complex systems. A critical component of these tools is a visualizer that lets users graphically explore generated models. However, a default visualizer that knows nothing about the domain can be unhelpful and can even actively violate presentational and cognitive principles. At the other extreme, full-blown custom visualization requires significant effort as well as knowledge that a tool user might not possess. Custom visualizations can also exhibit bad (even silent) failures. The same needs and demands apply to programming languages, which are virtually never accompanied by data structure visualizers.
 
@@ -106,7 +125,10 @@ We show how to endow the diagramming language with a spatial semantics and prove
 
 ### Mechanising a Regex-Based Borrow Checker: An Experiment in AI-Assisted Metatheory {#sergey}
 
-**[Ilya Sergey](https://ilyasergey.net/)** --- Associate Professor, National University of Singapore
+<div style="display:flex; align-items:center; gap:0.75rem; margin-bottom:0.5rem;">
+<img src="https://ilyasergey.net/assets/img/ilya-2021-2.jpg" alt="Ilya Sergey" style="width:48px;height:48px;border-radius:50%;object-fit:cover;border:1px solid #e0e0e0;flex-shrink:0;">
+<strong><a href="https://ilyasergey.net/">Ilya Sergey</a></strong> &mdash; Associate Professor, National University of Singapore
+</div>
 
 **Abstract.** I will present a mechanised metatheory and a soundness proof for a regex-based borrow checker for Move, a Rust-inspired smart contract language used by Sui and Aptos blockchains. The type system tracks aliasing as regular expressions over field paths, using Brzozowski derivatives for field borrows and Kleene star for unbounded aliasing from calls and loops. In this model, write safety in the presence of aliasing reduces to a decidable regex emptiness check. Working with Claude Code over 27 intensive days, a single researcher has produced a full mechanisation of Move in 39K LOC of sorry-free Lean code. The formalisation has been extensively tested against the production Move compiler for compatibility and can serve as a reference implementation. Reflecting on the outcomes of this experiment, I will argue that AI-assisted formalisation of realistic programming languages shifts the bottleneck from writing proofs to designing invariants, making machine-checked mechanisation a practical tool for iterative prototyping of correct-by-construction type systems.
 

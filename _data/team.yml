@@ -12,7 +12,7 @@
       photo: /assets/images/person-placeholder.svg
       website: https://www.blue-indus.in/
       designation: Research Staff (2025–), CSE IIT Madras
-      bio: Compiler and PL researcher; contributions to Multicore OCaml and dependently-typed languages (Idris2).
+      bio: Working to improve semantics for the OCaml 5 effects system.
 
     - name: Navaneeth Nambiar
       photo: /assets/images/person-placeholder.svg
@@ -40,7 +40,7 @@
       bio: Programming languages, formal methods, data races, concurrent systems programming.
 
     - name: Sheera Shamsu
-      photo: /assets/images/person-placeholder.svg
+      photo: /assets/images/sheera-shamsu.png
       designation: PhD student (2019–), CSE IIT Madras
       bio: Formal verification of garbage collectors for OCaml.
 
@@ -83,7 +83,7 @@
       bio: Intersection of formal methods and large language models.
 
     - name: Aadi Srivastava
-      photo: /assets/images/person-placeholder.svg
+      photo: /assets/images/aadi-srivastava.jpg
       designation: BTech student (UGRC, Spring 2026), CSE IIT Madras
       bio: Integrating the MMTk memory management toolkit with the OCaml runtime.
 
