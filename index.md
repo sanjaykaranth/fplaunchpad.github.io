@@ -23,16 +23,16 @@ The Functional Programming (FP) Launchpad at [IIT Madras](https://www.iitm.ac.in
   <li><img src="https://www.cse.iitm.ac.in/~ayon/images/ayon.jpg" alt="Ayon Chakraborty"><span><a href="https://www.cse.iitm.ac.in/~ayon/">Ayon Chakraborty</a>, Assistant Professor, Computer Science and Engineering, IIT Madras</span></li>
   <li><img src="https://www.cse.iitm.ac.in/~mukulika/mukulika.jpg" alt="Mukulika Maity"><span><a href="https://www.cse.iitm.ac.in/~mukulika/">Mukulika Maity</a>, Assistant Professor, Computer Science and Engineering, IIT Madras</span></li>
   <li><img src="https://kartiknagar.github.io/authors/admin/avatar_hu5e211fc92955e0d7ae0916788998d721_97472_250x250_fill_q90_lanczos_center.jpg" alt="Kartik Nagar"><span><a href="https://kartiknagar.github.io/">Kartik Nagar</a>, Assistant Professor, Computer Science and Engineering, IIT Madras</span></li>
-  <li><img src="/assets/images/person-placeholder.svg" alt="Patanjali SLPSK"><span><a href="https://wsai.iitm.ac.in/faculty/patanjali-slpsk/">Patanjali SLPSK</a>, Assistant Professor, Wadhwani School of Data Science and AI, IIT Madras</span></li>
-  <li><img src="/assets/images/person-placeholder.svg" alt="Balaraman Ravindran"><span><a href="https://www.cse.iitm.ac.in/~ravi/">Balaraman Ravindran</a>, Professor and Head, Wadhwani School of Data Science and AI, IIT Madras</span></li>
+  <li><img src="https://wsai.iitm.ac.in/images/people/patanjali.jpeg" alt="Patanjali SLPSK"><span><a href="https://wsai.iitm.ac.in/faculty/patanjali-slpsk/">Patanjali SLPSK</a>, Assistant Professor, Wadhwani School of Data Science and AI, IIT Madras</span></li>
+  <li><img src="/assets/images/balaraman-ravindran.jpeg" alt="Balaraman Ravindran"><span><a href="https://www.cse.iitm.ac.in/~ravi/">Balaraman Ravindran</a>, Professor and Head, Wadhwani School of Data Science and AI, IIT Madras</span></li>
   <li><img src="https://www.cse.iitm.ac.in/~chester/pubs/chet.png" alt="Chester Rebeiro"><span><a href="https://www.cse.iitm.ac.in/~chester/">Chester Rebeiro</a>, Professor, Computer Science and Engineering, IIT Madras</span></li>
-  <li><img src="/assets/images/person-placeholder.svg" alt="Gopalakrishnan Srinivasan"><span><a href="https://sites.google.com/view/gsgopal">Gopalakrishnan Srinivasan</a>, Assistant Professor, Computer Science and Engineering, IIT Madras</span></li>
+  <li><img src="https://cystar.iitm.ac.in/wp-content/uploads/2025/09/Gopal-inner.webp" alt="Gopalakrishnan Srinivasan"><span><a href="https://sites.google.com/view/gsgopal">Gopalakrishnan Srinivasan</a>, Assistant Professor, Computer Science and Engineering, IIT Madras</span></li>
 </ul>
 
 ### Advisory Board
 
 <ul class="people-list">
-  <li><img src="/assets/images/person-placeholder.svg" alt="Chris Casinghino"><span><a href="https://tyconmismatch.com/">Chris Casinghino</a>, Software Engineer, Jane Street</span></li>
+  <li><img src="/assets/images/chris-casinghino.jpeg" alt="Chris Casinghino"><span><a href="https://tyconmismatch.com/">Chris Casinghino</a>, Software Engineer, Jane Street</span></li>
   <li><img src="https://www.cs.purdue.edu/homes/suresh/suresh.med.jpg" alt="Suresh Jagannathan"><span><a href="https://www.cs.purdue.edu/homes/suresh/">Suresh Jagannathan</a>, Professor, Purdue University</span></li>
   <li><img src="https://ranjitjhala.github.io/static/rj-color.jpg" alt="Ranjit Jhala"><span><a href="https://ranjitjhala.github.io/">Ranjit Jhala</a>, Professor, University of California, San Diego</span></li>
   <li><img src="https://cs.brown.edu/~sk/Images/me-2019-04-10-small.jpg" alt="Shriram Krishnamurthi"><span><a href="https://www.cs.brown.edu/~sk/">Shriram Krishnamurthi</a>, Professor, Brown University</span></li>
