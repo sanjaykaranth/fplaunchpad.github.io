@@ -92,3 +92,10 @@
       website: https://innocentzero.is-a.dev
       designation: BTech student (2022 batch), CSE IIT Madras
       bio: Systems and OS developer; interests in type theory, Rust, hardware-software security.
+
+- role: Program
+  members:
+    - name: Sanjay Karanth
+      photo: /assets/images/sanjay-karanth.jpeg
+      designation: Technical Program Manager
+      bio: ""
