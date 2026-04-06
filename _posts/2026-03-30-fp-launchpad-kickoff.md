@@ -31,7 +31,7 @@ Registration and breakfast begin at 9:00 AM. The inauguration begins at 10:00 AM
     <tr><td>02:15 &ndash; 03:00</td><td><img class="sp" src="https://www.cse.iitb.ac.in/~manas/images/profile.jpg" alt="Manas Thakur"><a href="https://www.cse.iitb.ac.in/~manas/">Manas Thakur</a>, Assistant Professor, IIT Bombay</td><td><a href="#thakur">From Precise Analysis to Efficient JIT Optimization — The Story of an Object Transformed by CompL</a></td></tr>
     <tr><td>03:00 &ndash; 03:45</td><td><img class="sp" src="https://anil.recoil.org/images/anil-headshot.webp" alt="Anil Madhavapeddy"><a href="https://anil.recoil.org/">Anil Madhavapeddy</a>, Professor, University of Cambridge</td><td><a href="#madhavapeddy">TESSERA: Functionally Programming Petabytes of Earth Observations</a></td></tr>
     <tr style="background-color: #f0f0f0;"><td>03:45 &ndash; 04:15</td><td colspan="2" style="text-align: center;"><strong>Networking break</strong></td></tr>
-    <tr><td>04:15 &ndash; 04:30</td><td><img class="sp" src="https://avatars.githubusercontent.com/u/715302?v=4" alt="Yaron Minsky">Yaron Minsky, Jane Street (Remote)</td><td>Donor Address</td></tr>
+    <tr><td>04:15 &ndash; 04:30</td><td><img class="sp" src="https://avatars.githubusercontent.com/u/715302?v=4" alt="Yaron Minsky">Yaron Minsky, Co-head of Technology, Jane Street (Remote)</td><td>Donor Address</td></tr>
     <tr><td>04:30 &ndash; 05:15</td><td><img class="sp" src="https://cs.brown.edu/~sk/Images/me-2019-04-10-small.jpg" alt="Shriram Krishnamurthi"><a href="https://cs.brown.edu/~sk/">Shriram Krishnamurthi</a>, Professor, Brown University (Remote)</td><td><a href="#krishnamurthi">A Programming Language for Lightweight Diagramming</a></td></tr>
     <tr><td>05:15 &ndash; 06:00</td><td><img class="sp" src="https://ilyasergey.net/assets/img/ilya-2021-2.jpg" alt="Ilya Sergey"><a href="https://ilyasergey.net/">Ilya Sergey</a>, Associate Professor, National University of Singapore</td><td><a href="#sergey">Mechanising a Regex-Based Borrow Checker: An Experiment in AI-Assisted Metatheory</a></td></tr>
   </tbody>
@@ -107,6 +107,15 @@ Towards this we release global, annual, 10m, pixel-wise embeddings together with
 In this talk, I'll take you through an array of problems our users are applying it to, ranging from the ecological to the urban to the temporal. By the end of the talk, I'll aim to have you identify a seemingly impossible spatial problem that is now within range to solve yourself using our O(x)Caml, Python or Typescript interfaces. Bring your favourite coding agents too!
 
 **Bio.** Anil Madhavapeddy is the Professor of Planetary Computing at the University of Cambridge Computer Laboratory. He co-leads the Energy and Environment Group at Cambridge and also co-directs the Centre for Earth Observation and the Cambridge Centre for Carbon Credits (4C), which aims to increase the integrity and effectiveness of natural climate solutions via the application of modern remote sensing. He has decades of experience with constructing Internet-scale systems and has contributed to some of the most widely deployed open-source projects in the world such as Docker, Xen, OCaml and OpenBSD, with users ranging from all the major cloud computing providers to governments worldwide.
+
+### Donor Address {#minsky}
+
+<div style="display:flex; align-items:center; gap:0.75rem; margin-bottom:0.5rem;">
+<img src="https://avatars.githubusercontent.com/u/715302?v=4" alt="Yaron Minsky" style="width:48px;height:48px;border-radius:50%;object-fit:cover;border:1px solid #e0e0e0;flex-shrink:0;">
+<strong>Yaron Minsky</strong> &mdash; Co-head of Technology, Jane Street
+</div>
+
+**Bio.** Yaron Minsky got his BA in Mathematics from Princeton and his PhD in Computer Science from Cornell focusing on distributed systems. He joined Jane Street in 2003, where he founded the firm's quantitative research group. Today, he co-heads the technology group there. He introduced OCaml, a statically typed functional programming language, to the company and managed the transition to using OCaml for all of its core infrastructure, turning Jane Street into the world's largest industrial user of the language. He's been involved in many different aspects of Jane Street's technology stack, including machine learning infrastructure, distributed systems design, incremental programming systems, hardware synthesis, trading and risk systems, developer tools, and user-interface toolkits.
 
 ### A Programming Language for Lightweight Diagramming {#krishnamurthi}
 
