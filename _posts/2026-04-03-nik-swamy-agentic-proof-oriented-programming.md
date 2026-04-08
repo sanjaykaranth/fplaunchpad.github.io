@@ -10,6 +10,8 @@ date: 2026-04-03
 
 **Venue:** SSB 334, Department of CSE, IIT Madras
 
+**Slides:** [PDF](/assets/slides/nik-swamy-agentic-proof-oriented-programming.pdf)
+
 ## Abstract
 
 Can AI assist in building programs with formal proofs of correctness? My recent experience using [Copilot CLI](https://github.com/features/copilot/cli) to develop programs with proofs in [F\*](https://fstar-lang.org/) and [Pulse](https://fstar-lang.org/tutorial/book/pulse/pulse.html) has been eye opening. In just the past few weeks, working with agents, I have programmed nearly 200 KLOC of verified code and proofs in a variety of contexts, ranging from concurrent data structures, formalizations of classic algorithms textbooks, porting a [verified garbage collector](https://github.com/FStarLang/pulse-verified-gc) from FP Launchpad, and even some proofs of production C code at Microsoft.
