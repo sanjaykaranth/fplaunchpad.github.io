@@ -13,6 +13,8 @@ FP Launchpad will hold its kickoff on **Monday, April 13, 2026** at the **IC&SR 
 
 Registration and breakfast begin at 9:00 AM. The inauguration begins at 10:00 AM with welcoming remarks from Dr KC Sivaramakrishnan (Centre Head) and the Director of IIT Madras.
 
+**Recordings:** [Full playlist on YouTube](https://www.youtube.com/playlist?list=PLvhoCCkcBeAv4fgWRw5o1q2IpTEAIZBXP)
+
 ## Schedule
 
 <div class="schedule-table" markdown="0">
@@ -22,18 +24,18 @@ Registration and breakfast begin at 9:00 AM. The inauguration begins at 10:00 AM
   </thead>
   <tbody>
     <tr style="background-color: #f0f0f0;"><td>09:00 &ndash; 09:45</td><td colspan="2" style="text-align: center;"><strong>Registration + Breakfast</strong></td></tr>
-    <tr><td>10:00 &ndash; 10:30</td><td><img class="sp" src="https://kcsrk.info/assets/profile.jpeg" alt="KC Sivaramakrishnan"><a href="https://kcsrk.info">KC Sivaramakrishnan</a>, Assistant Professor, IIT Madras<br/>* Director, IITM</td><td>Inauguration</td></tr>
-    <tr><td>10:30 &ndash; 11:15</td><td><img class="sp" src="https://avatars.githubusercontent.com/u/3867081?v=4" alt="Rishiyur S. Nikhil"><a href="https://github.com/rsnikhil">Rishiyur S. Nikhil</a>, CTO and Co-founder, <a href="https://bluespec.com/">Bluespec</a></td><td><a href="#nikhil">Functional Programming and Concurrent Atomic Transactions for Complex Hardware Design</a></td></tr>
+    <tr><td>10:00 &ndash; 10:30</td><td><img class="sp" src="https://kcsrk.info/assets/profile.jpeg" alt="KC Sivaramakrishnan"><a href="https://kcsrk.info">KC Sivaramakrishnan</a>, Assistant Professor, IIT Madras<br/>* Director, IITM</td><td>Inauguration &mdash; <a href="https://youtu.be/fV4-cdVSkBk" target="_blank">▶ Opening Address</a> &bull; <a href="https://youtu.be/zreZprRVoGA" target="_blank">▶ Inaugural Address</a></td></tr>
+    <tr><td>10:30 &ndash; 11:15</td><td><img class="sp" src="https://avatars.githubusercontent.com/u/3867081?v=4" alt="Rishiyur S. Nikhil"><a href="https://github.com/rsnikhil">Rishiyur S. Nikhil</a>, CTO and Co-founder, <a href="https://bluespec.com/">Bluespec</a></td><td><a href="#nikhil">Functional Programming and Concurrent Atomic Transactions for Complex Hardware Design</a> <a href="https://youtu.be/aNqWJyDkyoQ" target="_blank" title="Watch on YouTube">▶</a></td></tr>
     <tr style="background-color: #f0f0f0;"><td>11:15 &ndash; 11:30</td><td colspan="2" style="text-align: center;"><strong>Networking break</strong></td></tr>
-    <tr><td>11:30 &ndash; 12:15</td><td><img class="sp" src="https://www.cse.iitm.ac.in/~chester/pubs/chet.png" alt="Chester Rebeiro"><a href="https://www.cse.iitm.ac.in/~chester/">Chester Rebeiro</a>, Professor, IIT Madras</td><td><a href="#rebeiro">Trusted hardware for security critical software</a></td></tr>
-    <tr><td>12:15 &ndash; 01:00</td><td><img class="sp" src="https://media.licdn.com/dms/image/v2/C5603AQGjQKQtzd8A_Q/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1647665493390?e=2147483647&v=beta&t=ZyRZiDVsvFHmwT1nMmXSL0k0gs45oSEw0Aox4B5SYnE" alt="Krishnan Raghavan"><a href="https://www.linkedin.com/in/krishnan-raghavan-834aa091/">Krishnan Raghavan</a>, CTO and Co-founder, <a href="https://www.pramaanalabs.ai/">Pramaana Labs</a></td><td><a href="#raghavan">Towards verifiable governance with LLMs and Lean</a></td></tr>
+    <tr><td>11:30 &ndash; 12:15</td><td><img class="sp" src="https://www.cse.iitm.ac.in/~chester/pubs/chet.png" alt="Chester Rebeiro"><a href="https://www.cse.iitm.ac.in/~chester/">Chester Rebeiro</a>, Professor, IIT Madras</td><td><a href="#rebeiro">Trusted hardware for security critical software</a> <a href="https://youtu.be/Tgmyjkfrnew" target="_blank" title="Watch on YouTube">▶</a></td></tr>
+    <tr><td>12:15 &ndash; 01:00</td><td><img class="sp" src="https://media.licdn.com/dms/image/v2/C5603AQGjQKQtzd8A_Q/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1647665493390?e=2147483647&v=beta&t=ZyRZiDVsvFHmwT1nMmXSL0k0gs45oSEw0Aox4B5SYnE" alt="Krishnan Raghavan"><a href="https://www.linkedin.com/in/krishnan-raghavan-834aa091/">Krishnan Raghavan</a>, CTO and Co-founder, <a href="https://www.pramaanalabs.ai/">Pramaana Labs</a></td><td><a href="#raghavan">Towards verifiable governance with LLMs and Lean</a> <a href="https://youtu.be/NeL8kw6Z8hA" target="_blank" title="Watch on YouTube">▶</a></td></tr>
     <tr style="background-color: #f0f0f0;"><td>01:00 &ndash; 02:15</td><td colspan="2" style="text-align: center;"><strong>Networking lunch</strong></td></tr>
-    <tr><td>02:15 &ndash; 03:00</td><td><img class="sp" src="https://www.cse.iitb.ac.in/~manas/images/profile.jpg" alt="Manas Thakur"><a href="https://www.cse.iitb.ac.in/~manas/">Manas Thakur</a>, Assistant Professor, IIT Bombay</td><td><a href="#thakur">From Precise Analysis to Efficient JIT Optimization — The Story of an Object Transformed by CompL</a></td></tr>
-    <tr><td>03:00 &ndash; 03:45</td><td><img class="sp" src="https://anil.recoil.org/images/anil-headshot.webp" alt="Anil Madhavapeddy"><a href="https://anil.recoil.org/">Anil Madhavapeddy</a>, Professor, University of Cambridge</td><td><a href="#madhavapeddy">TESSERA: Functionally Programming Petabytes of Earth Observations</a></td></tr>
+    <tr><td>02:15 &ndash; 03:00</td><td><img class="sp" src="https://www.cse.iitb.ac.in/~manas/images/profile.jpg" alt="Manas Thakur"><a href="https://www.cse.iitb.ac.in/~manas/">Manas Thakur</a>, Assistant Professor, IIT Bombay</td><td><a href="#thakur">From Precise Analysis to Efficient JIT Optimization — The Story of an Object Transformed by CompL</a> <a href="https://youtu.be/ovsQmlQmbNE" target="_blank" title="Watch on YouTube">▶</a></td></tr>
+    <tr><td>03:00 &ndash; 03:45</td><td><img class="sp" src="https://anil.recoil.org/images/anil-headshot.webp" alt="Anil Madhavapeddy"><a href="https://anil.recoil.org/">Anil Madhavapeddy</a>, Professor, University of Cambridge</td><td><a href="#madhavapeddy">TESSERA: Functionally Programming Petabytes of Earth Observations</a> <a href="https://youtu.be/-tBv-j5IbmM" target="_blank" title="Watch on YouTube">▶</a></td></tr>
     <tr style="background-color: #f0f0f0;"><td>03:45 &ndash; 04:15</td><td colspan="2" style="text-align: center;"><strong>Networking break</strong></td></tr>
-    <tr><td>04:15 &ndash; 04:30</td><td><img class="sp" src="https://avatars.githubusercontent.com/u/715302?v=4" alt="Yaron Minsky">Yaron Minsky, Co-head of Technology, Jane Street (Remote)</td><td><a href="#minsky">Donor Address</a></td></tr>
-    <tr><td>04:30 &ndash; 05:15</td><td><img class="sp" src="https://cs.brown.edu/~sk/Images/me-2019-04-10-small.jpg" alt="Shriram Krishnamurthi"><a href="https://cs.brown.edu/~sk/">Shriram Krishnamurthi</a>, Professor, Brown University (Remote)</td><td><a href="#krishnamurthi">A Programming Language for Lightweight Diagramming</a></td></tr>
-    <tr><td>05:15 &ndash; 06:00</td><td><img class="sp" src="https://ilyasergey.net/assets/img/ilya-2021-2.jpg" alt="Ilya Sergey"><a href="https://ilyasergey.net/">Ilya Sergey</a>, Associate Professor, National University of Singapore</td><td><a href="#sergey">Mechanising a Regex-Based Borrow Checker: An Experiment in AI-Assisted Metatheory</a></td></tr>
+    <tr><td>04:15 &ndash; 04:30</td><td><img class="sp" src="https://avatars.githubusercontent.com/u/715302?v=4" alt="Yaron Minsky">Yaron Minsky, Co-head of Technology, Jane Street (Remote)</td><td><a href="#minsky">Donor Address</a> <a href="https://youtu.be/ytknR-B5Tf8" target="_blank" title="Watch on YouTube">▶</a></td></tr>
+    <tr><td>04:30 &ndash; 05:15</td><td><img class="sp" src="https://cs.brown.edu/~sk/Images/me-2019-04-10-small.jpg" alt="Shriram Krishnamurthi"><a href="https://cs.brown.edu/~sk/">Shriram Krishnamurthi</a>, Professor, Brown University (Remote)</td><td><a href="#krishnamurthi">A Programming Language for Lightweight Diagramming</a> <a href="https://youtu.be/O5bLF5YekkU" target="_blank" title="Watch on YouTube">▶</a></td></tr>
+    <tr><td>05:15 &ndash; 06:00</td><td><img class="sp" src="https://ilyasergey.net/assets/img/ilya-2021-2.jpg" alt="Ilya Sergey"><a href="https://ilyasergey.net/">Ilya Sergey</a>, Associate Professor, National University of Singapore</td><td><a href="#sergey">Mechanising a Regex-Based Borrow Checker: An Experiment in AI-Assisted Metatheory</a> <a href="https://youtu.be/rXvjRABLGKw" target="_blank" title="Watch on YouTube">▶</a></td></tr>
   </tbody>
 </table>
 </div>
@@ -43,6 +45,8 @@ All sessions include opportunities for Q&A and discussion.
 ## Talks
 
 ### Functional Programming and Concurrent Atomic Transactions for Complex Hardware Design {#nikhil}
+
+[▶ Watch on YouTube](https://youtu.be/aNqWJyDkyoQ)
 
 <div style="display:flex; align-items:center; gap:0.75rem; margin-bottom:0.5rem;">
 <img src="https://avatars.githubusercontent.com/u/3867081?v=4" alt="Rishiyur S. Nikhil" style="width:48px;height:48px;border-radius:50%;object-fit:cover;border:1px solid #e0e0e0;flex-shrink:0;">
@@ -54,6 +58,8 @@ All sessions include opportunities for Q&A and discussion.
 **Bio.** Rishiyur Nikhil received his B.Tech. degree in EE from IIT Kanpur, and his Masters and Ph.D. degrees in Computer Science from U. Pennsylvania. He was a faculty member in MIT's Lab for Computer Science, researching functional programming, dataflow and multithreaded computer architectures, and continued this work at Digital Equipment Corp.'s Cambridge Research Lab. In 2003 he co-founded <a href="https://bluespec.com/">Bluespec</a>, Inc., and remains CTO, working on the BSV and BH High-Level Hardware Design Languages and their applications, using ideas from Haskell and atomic transactions. He has created several open-source RISC-V CPU and System designs, and chaired the RISC-V Foundation's technical group that selected the RISC-V ISA formal spec in Sail.
 
 ### Trusted hardware for security critical software {#rebeiro}
+
+[▶ Watch on YouTube](https://youtu.be/Tgmyjkfrnew)
 
 **[Chester Rebeiro](https://www.cse.iitm.ac.in/~chester/)** --- Professor, IIT Madras
 
@@ -69,6 +75,8 @@ Together, TESLA and FIDES illustrate a unified approach to hardware-enhanced sof
 
 ### Towards verifiable governance with LLMs and Lean {#raghavan}
 
+[▶ Watch on YouTube](https://youtu.be/NeL8kw6Z8hA)
+
 <div style="display:flex; align-items:center; gap:0.75rem; margin-bottom:0.5rem;">
 <img src="https://media.licdn.com/dms/image/v2/C5603AQGjQKQtzd8A_Q/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1647665493390?e=2147483647&v=beta&t=ZyRZiDVsvFHmwT1nMmXSL0k0gs45oSEw0Aox4B5SYnE" alt="Krishnan Raghavan" style="width:48px;height:48px;border-radius:50%;object-fit:cover;border:1px solid #e0e0e0;flex-shrink:0;">
 <strong><a href="https://www.linkedin.com/in/krishnan-raghavan-834aa091/">Krishnan Raghavan</a></strong> &mdash; CTO and Co-founder, <a href="https://www.pramaanalabs.ai/">Pramaana Labs</a>
@@ -82,6 +90,8 @@ We present work on combining LLMs with Lean 4, the proof assistant, to build ver
 
 ### From Precise Analysis to Efficient JIT Optimization — The Story of an Object Transformed by CompL {#thakur}
 
+[▶ Watch on YouTube](https://youtu.be/ovsQmlQmbNE)
+
 <div style="display:flex; align-items:center; gap:0.75rem; margin-bottom:0.5rem;">
 <img src="https://www.cse.iitb.ac.in/~manas/images/profile.jpg" alt="Manas Thakur" style="width:48px;height:48px;border-radius:50%;object-fit:cover;border:1px solid #e0e0e0;flex-shrink:0;">
 <strong><a href="https://www.cse.iitb.ac.in/~manas/">Manas Thakur</a></strong> &mdash; Assistant Professor, IIT Bombay
@@ -94,6 +104,8 @@ I will present our recent work on static-analysis–guided optimistic stack allo
 **Bio.** Manas Thakur is a faculty member in the Department of Computer Science and Engineering at Indian Institute of Technology (IIT) Bombay. His research interests include program analysis, compiler optimizations, and programming languages. Manas holds PhD and Masters degrees in Computer Science and Engineering from IIT Madras. His thesis titled "Precise and Efficient Analysis of Java Programs" won one of the institute research awards and the IBM Best Thesis Award in 2019-20. Prior to joining IITB, Manas was at IIT Mandi where he received the Teaching Honour Roll Award in 2021; and recently, he was honoured with the Faculty of the Year 2024 award by IBM Centre for Advanced Studies. Manas's research group at IIT Bombay, named CompL [pronunciation: Compel], specializes in JIT compilers and has developed efficient optimization strategies for Java, JavaScript and R.
 
 ### TESSERA: Functionally Programming Petabytes of Earth Observations {#madhavapeddy}
+
+[▶ Watch on YouTube](https://youtu.be/-tBv-j5IbmM)
 
 <div style="display:flex; align-items:center; gap:0.75rem; margin-bottom:0.5rem;">
 <img src="https://anil.recoil.org/images/anil-headshot.webp" alt="Anil Madhavapeddy" style="width:48px;height:48px;border-radius:50%;object-fit:cover;border:1px solid #e0e0e0;flex-shrink:0;">
@@ -110,6 +122,8 @@ In this talk, I'll take you through an array of problems our users are applying 
 
 ### Donor Address {#minsky}
 
+[▶ Watch on YouTube](https://youtu.be/ytknR-B5Tf8)
+
 <div style="display:flex; align-items:center; gap:0.75rem; margin-bottom:0.5rem;">
 <img src="https://avatars.githubusercontent.com/u/715302?v=4" alt="Yaron Minsky" style="width:48px;height:48px;border-radius:50%;object-fit:cover;border:1px solid #e0e0e0;flex-shrink:0;">
 <strong>Yaron Minsky</strong> &mdash; Co-head of Technology, Jane Street
@@ -118,6 +132,8 @@ In this talk, I'll take you through an array of problems our users are applying 
 **Bio.** Yaron Minsky got his BA in Mathematics from Princeton and his PhD in Computer Science from Cornell focusing on distributed systems. He joined Jane Street in 2003, where he founded the firm's quantitative research group. Today, he co-heads the technology group there. He introduced OCaml, a statically typed functional programming language, to the company and managed the transition to using OCaml for all of its core infrastructure, turning Jane Street into the world's largest industrial user of the language. He's been involved in many different aspects of Jane Street's technology stack, including machine learning infrastructure, distributed systems design, incremental programming systems, hardware synthesis, trading and risk systems, developer tools, and user-interface toolkits.
 
 ### A Programming Language for Lightweight Diagramming {#krishnamurthi}
+
+[▶ Watch on YouTube](https://youtu.be/O5bLF5YekkU)
 
 <div style="display:flex; align-items:center; gap:0.75rem; margin-bottom:0.5rem;">
 <img src="https://cs.brown.edu/~sk/Images/me-2019-04-10-small.jpg" alt="Shriram Krishnamurthi" style="width:48px;height:48px;border-radius:50%;object-fit:cover;border:1px solid #e0e0e0;flex-shrink:0;">
@@ -133,6 +149,8 @@ We show how to endow the diagramming language with a spatial semantics and prove
 **Bio.** Shriram is the Vice President for Programming Languages at Brown University in Providence, RI, USA. He's not, really, but that's what it says on his business card. At heart, he's a person of ill-repute: a Schemer, Racketeer, and Pyreteer. He believes tropical fruit are superior to all other kinds. He is terrified of success, because he may be forced to buy a suit. On a more serious note, he's a professor at Brown who has created several influential systems (such as DrRacket, Margrave, Flapjax, and Lambda-JS) and written multiple widely-used books. He has won SIGPLAN's Robin Milner Young Researcher Award, SIGPLAN's Software Award (jointly), SIGSOFT's Influential Educator Award, SIGPLAN's Distinguished Educator Award (jointly), and other recognitions.
 
 ### Mechanising a Regex-Based Borrow Checker: An Experiment in AI-Assisted Metatheory {#sergey}
+
+[▶ Watch on YouTube](https://youtu.be/rXvjRABLGKw)
 
 <div style="display:flex; align-items:center; gap:0.75rem; margin-bottom:0.5rem;">
 <img src="https://ilyasergey.net/assets/img/ilya-2021-2.jpg" alt="Ilya Sergey" style="width:48px;height:48px;border-radius:50%;object-fit:cover;border:1px solid #e0e0e0;flex-shrink:0;">
