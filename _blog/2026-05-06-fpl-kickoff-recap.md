@@ -3,6 +3,7 @@ layout: blog-post
 title: "FPL Kickoff Recap: Our Launch at IIT Madras"
 date: 2026-05-06
 author: FP Launchpad
+published: false
 ---
 
 On April 13, 2026, we held the kickoff of the FP Launchpad at the IC&SR Building, IIT Madras. The auditorium filled up with students from IIT Madras and colleges across Chennai, alongside researchers, faculty, and industry guests. There were fresh flowers at the entrance, Indian filter coffee to get things going, and a speaker lineup that cut across hardware design, security, formal verification, compilers, and AI-assisted software engineering. Here's a full recap of the day — talk by talk, with direct quotes from the recordings.
