@@ -1,0 +1,52 @@
+<aside class="blog-sidebar">
+  {%- assign blog_posts = site.blog | sort: 'date' | reverse -%}
+  {%- if blog_posts.size > 0 -%}
+  <div class="sidebar-section">
+    <h3>Recent Posts</h3>
+    <ul class="sidebar-posts">
+      {%- for post in blog_posts limit:6 -%}
+      <li>
+        <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+        <span class="sidebar-date">{{ post.date | date: "%-d %b %Y" }}</span>
+      </li>
+      {%- endfor -%}
+    </ul>
+  </div>
+  {%- endif -%}
+
+  <div class="sidebar-section">
+    <a href="{{ '/feed.xml' | relative_url }}" class="sidebar-rss">&#9656; Subscribe to this blog</a>
+  </div>
+
+  {%- if site.data.feeds.members -%}
+  <div class="sidebar-section">
+    <h3>FPL Members <a href="/blogroll.opml" class="sidebar-subscribe-all" title="Subscribe to all member feeds">&#9656; subscribe all</a></h3>
+    <ul class="sidebar-posts">
+      {%- for feed in site.data.feeds.members -%}
+      <li>
+        <span class="sidebar-blogroll-entry">
+          <a href="{{ feed.site }}">{{ feed.name }}</a>
+          <a href="{{ feed.feed }}" class="sidebar-rss-icon" title="Subscribe to {{ feed.name }}'s feed">&#9656;</a>
+        </span>
+      </li>
+      {%- endfor -%}
+    </ul>
+  </div>
+  {%- endif -%}
+
+  {%- if site.data.feeds.friends -%}
+  <div class="sidebar-section">
+    <h3>FPL Friends</h3>
+    <ul class="sidebar-posts">
+      {%- for feed in site.data.feeds.friends -%}
+      <li>
+        <span class="sidebar-blogroll-entry">
+          <a href="{{ feed.site }}">{{ feed.name }}</a>
+          <a href="{{ feed.feed }}" class="sidebar-rss-icon" title="Subscribe to {{ feed.name }}'s feed">&#9656;</a>
+        </span>
+      </li>
+      {%- endfor -%}
+    </ul>
+  </div>
+  {%- endif -%}
+</aside>

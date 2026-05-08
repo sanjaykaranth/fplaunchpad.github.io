@@ -62,3 +62,130 @@ h6:hover .anchor-link {
 details {
   margin-bottom: 1em;
 }
+
+/* Blog two-column layout */
+.blog-layout {
+  display: grid;
+  grid-template-columns: 1fr 260px;
+  gap: 3em;
+  align-items: start;
+
+  @media (max-width: 768px) {
+    grid-template-columns: 1fr;
+  }
+}
+
+.blog-sidebar {
+  position: sticky;
+  top: 1.5em;
+}
+
+.sidebar-section {
+  margin-bottom: 2em;
+
+  h3 {
+    font-size: 0.85em;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    color: #828282;
+    margin-bottom: 0.75em;
+    border-bottom: 1px solid #e8e8e8;
+    padding-bottom: 0.4em;
+  }
+}
+
+.sidebar-rss {
+  font-size: 0.9em;
+  font-weight: 600;
+}
+
+.sidebar-posts {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+
+  li {
+    margin-bottom: 0.9em;
+    display: flex;
+    flex-direction: column;
+  }
+
+  a {
+    font-size: 0.9em;
+    line-height: 1.4;
+  }
+}
+
+.sidebar-date {
+  font-size: 0.78em;
+  color: #828282;
+  margin-top: 0.1em;
+}
+
+.giscus-comments {
+  margin-top: 3em;
+  padding-top: 2em;
+  border-top: 1px solid #e8e8e8;
+}
+
+/* Blog listing */
+.blog-preview {
+  margin-bottom: 2.5em;
+  padding-bottom: 2.5em;
+  border-bottom: 1px solid #e8e8e8;
+
+  &:last-child {
+    border-bottom: none;
+  }
+}
+
+.blog-preview-title {
+  margin-bottom: 0.2em;
+
+  a {
+    color: #2a7ae2;
+    text-decoration: none;
+
+    &:hover { text-decoration: underline; }
+  }
+}
+
+.blog-preview-excerpt {
+  color: #555;
+  margin: 0.5em 0 0.75em;
+}
+
+.blog-preview-link {
+  font-size: 0.9em;
+  font-weight: 600;
+}
+
+.rss-subscribe {
+  margin-bottom: 2em;
+  font-size: 0.9em;
+  color: #828282;
+}
+
+.sidebar-subscribe-all {
+  font-size: 0.8em;
+  font-weight: normal;
+  margin-left: 0.5em;
+  color: #2a7ae2;
+  text-decoration: none;
+  &:hover { text-decoration: underline; }
+}
+
+.sidebar-blogroll-entry {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+.sidebar-rss-icon {
+  font-size: 1em;
+  color: #f26522;
+  text-decoration: none;
+  margin-left: 0.4em;
+  flex-shrink: 0;
+  &:hover { color: #2a7ae2; }
+}

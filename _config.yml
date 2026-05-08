@@ -11,11 +11,21 @@ kramdown:
   auto_ids: true
 theme: minima
 
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+collections:
+  blog:
+    output: true
+    permalink: /blog/:slug/
+
 # Navigation
 header_pages:
   - index.md
   - charter.md
   - news.md
+  - blog.md
 
 # Social links
 twitter_username: fp_launchpad

@@ -1,0 +1,18 @@
+members:
+  - name: KC Sivaramakrishnan
+    site: https://kcsrk.info
+    feed: https://kcsrk.info/feed.xml
+  - name: Durwasa Chakraborty
+    site: https://durwasa-chakraborty.github.io
+    feed: https://durwasa-chakraborty.github.io/index.xml
+  - name: Kartik Nagar
+    site: https://kartiknagar.github.io
+    feed: https://kartiknagar.github.io/index.xml
+
+friends:
+  - name: Anil Madhavapeddy
+    site: https://anil.recoil.org
+    feed: https://anil.recoil.org/feed.xml
+  - name: Ilya Sergey
+    site: https://ilyasergey.net
+    feed: https://ilyasergey.net/feed.xml

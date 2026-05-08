@@ -1,0 +1,19 @@
+---
+layout: null
+permalink: /blogroll.opml
+---
+<?xml version="1.0" encoding="UTF-8"?>
+<opml version="2.0">
+  <head>
+    <title>FP Launchpad Blogroll</title>
+  </head>
+  <body>
+    <outline type="rss" text="FP Launchpad" title="FP Launchpad" htmlUrl="{{ site.url }}" xmlUrl="{{ '/feed.xml' | absolute_url }}" />
+    {%- for feed in site.data.feeds.members -%}
+    <outline type="rss" text="{{ feed.name }}" title="{{ feed.name }}" htmlUrl="{{ feed.site }}" xmlUrl="{{ feed.feed }}" />
+    {%- endfor -%}
+    {%- for feed in site.data.feeds.friends -%}
+    <outline type="rss" text="{{ feed.name }}" title="{{ feed.name }}" htmlUrl="{{ feed.site }}" xmlUrl="{{ feed.feed }}" />
+    {%- endfor -%}
+  </body>
+</opml>
