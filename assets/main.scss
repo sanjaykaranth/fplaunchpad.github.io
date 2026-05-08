@@ -64,10 +64,14 @@ details {
 }
 
 /* Blog two-column layout */
+.page-content .wrapper:has(.blog-layout) {
+  max-width: calc(1020px - 30px * 2);
+}
+
 .blog-layout {
   display: grid;
-  grid-template-columns: 1fr 260px;
-  gap: 3em;
+  grid-template-columns: 1fr 220px;
+  gap: 2em;
   align-items: start;
 
   @media (max-width: 768px) {
@@ -76,8 +80,6 @@ details {
 }
 
 .blog-sidebar {
-  position: sticky;
-  top: 1.5em;
 }
 
 .sidebar-section {
