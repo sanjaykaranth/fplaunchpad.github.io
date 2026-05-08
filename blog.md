@@ -4,8 +4,6 @@ title: Blog
 permalink: /blog/
 ---
 
-<p class="rss-subscribe">Subscribe via <a href="{{ '/feed.xml' | relative_url }}">RSS feed</a></p>
-
 {% assign blog_posts = site.blog | sort: 'date' | reverse %}
 {% if blog_posts.size == 0 %}
 <p style="color: #828282;">No posts yet — check back soon.</p>

@@ -12,5 +12,8 @@ permalink: /blogroll.opml
     {%- for feed in site.data.feeds.members -%}
     <outline type="rss" text="{{ feed.name }}" title="{{ feed.name }}" htmlUrl="{{ feed.site }}" xmlUrl="{{ feed.feed }}" />
     {%- endfor -%}
+    {%- for feed in site.data.feeds.friends -%}
+    <outline type="rss" text="{{ feed.name }}" title="{{ feed.name }}" htmlUrl="{{ feed.site }}" xmlUrl="{{ feed.feed }}" />
+    {%- endfor -%}
   </body>
 </opml>
