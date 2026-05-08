@@ -1,6 +1,6 @@
 ---
 layout: blog-post
-title: "FPL members win prize at LeanLang Hackathon, IISc Bangalore"
+title: "FP Launchpad members win prize at LeanLang Hackathon, IISc Bangalore"
 date: 2026-05-08
 author: FP Launchpad
 ---
