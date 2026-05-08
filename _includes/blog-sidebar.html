@@ -1,0 +1,20 @@
+<aside class="blog-sidebar">
+  <div class="sidebar-section">
+    <h3>Subscribe</h3>
+    <a href="{{ '/feed.xml' | relative_url }}" class="sidebar-rss">&#9656; RSS Feed</a>
+  </div>
+  {%- assign blog_posts = site.blog | sort: 'date' | reverse -%}
+  {%- if blog_posts.size > 0 -%}
+  <div class="sidebar-section">
+    <h3>Recent Posts</h3>
+    <ul class="sidebar-posts">
+      {%- for post in blog_posts limit:6 -%}
+      <li>
+        <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+        <span class="sidebar-date">{{ post.date | date: "%-d %b %Y" }}</span>
+      </li>
+      {%- endfor -%}
+    </ul>
+  </div>
+  {%- endif -%}
+</aside>
