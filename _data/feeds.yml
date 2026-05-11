@@ -9,7 +9,7 @@ members:
     site: https://kartiknagar.github.io
     feed: https://kartiknagar.github.io/index.xml
 
-friends:
+collaborators:
   - name: Anil Madhavapeddy
     site: https://anil.recoil.org
     feed: https://anil.recoil.org/feed.xml

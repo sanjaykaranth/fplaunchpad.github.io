@@ -15,7 +15,7 @@ import yaml
 REPO_ROOT = Path(__file__).parent.parent
 FEEDS_FILE = REPO_ROOT / "_data" / "feeds.yml"
 BLOG_DIR = REPO_ROOT / "_blog"
-WINDOW_HOURS = 25
+WINDOW_HOURS = 24 * 7
 
 
 def load_feeds():
@@ -44,9 +44,9 @@ def fetch_posts_for_group(feed_list, seen_urls, since):
     posts = []
     for feed_info in feed_list:
         try:
-            parsed = feedparser.parse(feed_info['url'])
+            parsed = feedparser.parse(feed_info['feed'])
         except Exception as e:
-            print(f"Warning: could not fetch {feed_info['url']}: {e}", file=sys.stderr)
+            print(f"Warning: could not fetch {feed_info['feed']}: {e}", file=sys.stderr)
             continue
 
         for entry in parsed.entries:
