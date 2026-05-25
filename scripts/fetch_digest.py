@@ -15,7 +15,7 @@ import yaml
 REPO_ROOT = Path(__file__).parent.parent
 FEEDS_FILE = REPO_ROOT / "_data" / "feeds.yml"
 BLOG_DIR = REPO_ROOT / "_blog"
-WINDOW_HOURS = 25
+WINDOW_HOURS = 24 * 7
 
 
 def load_feeds():
