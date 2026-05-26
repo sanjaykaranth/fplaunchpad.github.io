@@ -15,7 +15,7 @@ import yaml
 REPO_ROOT = Path(__file__).parent.parent
 FEEDS_FILE = REPO_ROOT / "_data" / "feeds.yml"
 BLOG_DIR = REPO_ROOT / "_blog"
-WINDOW_HOURS = 25
+WINDOW_HOURS = 24 * 7
 
 
 def load_feeds():
@@ -44,7 +44,7 @@ def fetch_posts_for_group(feed_list, seen_urls, since):
     posts = []
     for feed_info in feed_list:
         try:
-            parsed = feedparser.parse(feed_info['url'])
+            parsed = feedparser.parse(feed_info['feed'])
         except Exception as e:
             print(f"Warning: could not fetch {feed_info['url']}: {e}", file=sys.stderr)
             continue
@@ -103,7 +103,7 @@ def create_digest(member_posts, collaborator_posts, date):
     all_posts = member_posts + collaborator_posts
     urls_yaml = '\n'.join(f'  - {p["url"]}' for p in all_posts)
 
-    body = render_group(member_posts, 'FPL Members') + render_group(collaborator_posts, 'Collaborators & Friends')
+    body = render_group(member_posts, 'FPL Members') + render_group(collaborator_posts, 'Friends')
 
     content = f"""---
 layout: blog-post
@@ -130,7 +130,7 @@ def main():
     since = datetime.now(timezone.utc) - timedelta(hours=WINDOW_HOURS)
 
     member_posts = fetch_posts_for_group(feeds.get('members', []), seen_urls, since)
-    collaborator_posts = fetch_posts_for_group(feeds.get('collaborators', []), seen_urls, since)
+    collaborator_posts = fetch_posts_for_group(feeds.get('friends', []), seen_urls, since)
 
     if not member_posts and not collaborator_posts:
         print("No new posts found, skipping digest")
