@@ -12,7 +12,7 @@ permalink: /blog/
 <article class="blog-preview">
   <h2 class="blog-preview-title"><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h2>
   <p class="post-meta">{{ post.date | date: "%-d %B %Y" }}{% if post.author %} · {{ post.author }}{% endif %}</p>
-  <p class="blog-preview-excerpt">{{ post.excerpt | strip_html | truncatewords: 50 }}</p>
+  {% if post.blurb %}<p class="blog-preview-excerpt">{{ post.blurb }}</p>{% else %}<p class="blog-preview-excerpt">{{ post.excerpt | strip_html | truncatewords: 50 }}</p>{% endif %}
   <a class="blog-preview-link" href="{{ post.url | relative_url }}">Read more →</a>
 </article>
 {% endfor %}

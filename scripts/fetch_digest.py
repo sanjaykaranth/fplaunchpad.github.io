@@ -4,10 +4,14 @@ Daily digest: fetches all configured feeds, collects posts from the last 25 hour
 and writes a single _blog/ digest post. Skips posts already seen in previous digests.
 """
 
+import argparse
 import re
+import socket
 import sys
 from datetime import datetime, timezone, timedelta
 from pathlib import Path
+
+socket.setdefaulttimeout(10)
 
 import feedparser
 import yaml
@@ -15,7 +19,7 @@ import yaml
 REPO_ROOT = Path(__file__).parent.parent
 FEEDS_FILE = REPO_ROOT / "_data" / "feeds.yml"
 BLOG_DIR = REPO_ROOT / "_blog"
-WINDOW_HOURS = 24 * 7
+WINDOW_HOURS = 24 * 14
 
 
 def load_feeds():
@@ -40,7 +44,7 @@ def strip_html(text):
     return re.sub(r'<[^>]+>', '', text or '').strip()
 
 
-def fetch_posts_for_group(feed_list, seen_urls, since):
+def fetch_posts_for_group(feed_list, seen_urls, since, until):
     posts = []
     for feed_info in feed_list:
         try:
@@ -57,7 +61,7 @@ def fetch_posts_for_group(feed_list, seen_urls, since):
                     published = datetime(*val[:6], tzinfo=timezone.utc)
                     break
 
-            if not published or published < since:
+            if not published or published < since or published > until:
                 continue
 
             url = entry.get('link', '')
@@ -96,25 +100,45 @@ def render_group(posts, heading):
     return '\n'.join(lines)
 
 
+def generate_blurb(member_posts, collaborator_posts):
+    parts = []
+    by_author = {}
+    for post in member_posts + collaborator_posts:
+        by_author.setdefault(post['author'], []).append(post['title'])
+    for author, titles in by_author.items():
+        first_name = author.split()[0]
+        if len(titles) == 1:
+            parts.append(f"<strong>{first_name}</strong>: {titles[0]}")
+        else:
+            joined = ', '.join(titles[:2])
+            suffix = f' and {len(titles) - 2} more' if len(titles) > 2 else ''
+            parts.append(f"<strong>{first_name}</strong>: {joined}{suffix}")
+    return '. '.join(parts) + '.'
+
+
 def create_digest(member_posts, collaborator_posts, date):
     date_str = date.strftime('%-d %B %Y')
     filename = date.strftime('%Y-%m-%d') + '-digest.md'
 
     all_posts = member_posts + collaborator_posts
     urls_yaml = '\n'.join(f'  - {p["url"]}' for p in all_posts)
+    blurb = generate_blurb(member_posts, collaborator_posts)
 
     body = render_group(member_posts, 'FPL Members') + render_group(collaborator_posts, 'Friends')
 
     content = f"""---
 layout: blog-post
-title: "FPL Reading — {date_str}"
+title: "FPL Reading: {date_str}"
 date: {date.strftime('%Y-%m-%d')}
+permalink: /blog/{date.strftime('%Y-%m-%d')}-digest/
 digest: true
+blurb: >-
+  {blurb}
 included_urls:
 {urls_yaml}
 ---
 
-*A daily digest of posts from FPL members and collaborators.*
+*A digest of posts from FPL members and collaborators.*
 
 {body}"""
 
@@ -125,18 +149,24 @@ included_urls:
 
 
 def main():
+    parser = argparse.ArgumentParser()
+    parser.add_argument('--date', help='Override current date for backfilling (YYYY-MM-DD)', default=None)
+    args = parser.parse_args()
+
+    now = datetime.strptime(args.date, '%Y-%m-%d').replace(tzinfo=timezone.utc) if args.date else datetime.now(timezone.utc)
+
     feeds = load_feeds()
     seen_urls = load_seen_urls()
-    since = datetime.now(timezone.utc) - timedelta(hours=WINDOW_HOURS)
+    since = now - timedelta(hours=WINDOW_HOURS)
 
-    member_posts = fetch_posts_for_group(feeds.get('members', []), seen_urls, since)
-    collaborator_posts = fetch_posts_for_group(feeds.get('friends', []), seen_urls, since)
+    member_posts = fetch_posts_for_group(feeds.get('members', []), seen_urls, since, now)
+    collaborator_posts = fetch_posts_for_group(feeds.get('friends', []), seen_urls, since, now)
 
     if not member_posts and not collaborator_posts:
         print("No new posts found, skipping digest")
         return
 
-    create_digest(member_posts, collaborator_posts, datetime.now(timezone.utc))
+    create_digest(member_posts, collaborator_posts, now)
 
 
 if __name__ == '__main__':
