@@ -1,8 +1,8 @@
-name: Weekly Reading Digest
+name: Biweekly Reading Digest
 
 on:
   schedule:
-    - cron: '30 2 * * 5'  # 8:00am IST every Friday
+    - cron: '30 2 1,15 * *'  # 8:00am IST on the 1st and 15th of each month
   workflow_dispatch:       # also triggerable manually from GitHub Actions tab
 
 jobs:
