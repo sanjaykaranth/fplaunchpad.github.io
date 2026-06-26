@@ -26,6 +26,7 @@ The Functional Programming (FP) Launchpad at [IIT Madras](https://www.iitm.ac.in
   <li><img src="https://wsai.iitm.ac.in/images/people/patanjali.jpeg" alt="Patanjali SLPSK"><span><a href="https://wsai.iitm.ac.in/faculty/patanjali-slpsk/">Patanjali SLPSK</a>, Assistant Professor, Wadhwani School of Data Science and AI, IIT Madras</span></li>
   <li><img src="/assets/images/balaraman-ravindran.jpeg" alt="Balaraman Ravindran"><span><a href="https://www.cse.iitm.ac.in/~ravi/">Balaraman Ravindran</a>, Professor and Head, Wadhwani School of Data Science and AI, IIT Madras</span></li>
   <li><img src="https://www.cse.iitm.ac.in/~chester/pubs/chet.png" alt="Chester Rebeiro"><span><a href="https://www.cse.iitm.ac.in/~chester/">Chester Rebeiro</a>, Professor, Computer Science and Engineering, IIT Madras</span></li>
+  <li><img src="https://people.cs.rutgers.edu/~sn624/pic4.jpg" alt="NG Srinivas"><span><a href="https://people.cs.rutgers.edu/~sn624/">NG Srinivas</a>, Faculty, Computer Science and Engineering, IIT Madras</span></li>
   <li><img src="https://cystar.iitm.ac.in/wp-content/uploads/2025/09/Gopal-inner.webp" alt="Gopalakrishnan Srinivasan"><span><a href="https://sites.google.com/view/gsgopal">Gopalakrishnan Srinivasan</a>, Assistant Professor, Computer Science and Engineering, IIT Madras</span></li>
 </ul>
 
