@@ -11,6 +11,9 @@ members:
   - name: Pranav Ramesh
     site: https://pranavramesh2003.github.io
     feed: https://pranavramesh2003.github.io/atom.xml
+  - name: Harisankar Binod
+    site: https://methaphur.github.io/blogs/
+    feed: https://methaphur.github.io/blogs/index.xml
 
 friends:
   - name: Anil Madhavapeddy
