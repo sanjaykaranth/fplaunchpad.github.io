@@ -46,4 +46,4 @@ The Functional Programming (FP) Launchpad at [IIT Madras](https://www.iitm.ac.in
 
 ## Stay in touch
 
-Sign up for our newsletter to stay informed about upcoming events, open positions, and other opportunities at FP Launchpad. To subscribe, email [contact@fplaunchpad.org](mailto:contact@fplaunchpad.org?subject=Subscribe%20to%20Newsletter) with the subject line "Subscribe to Newsletter". We send updates infrequently and only when there is something meaningful to share.
+Sign up for our newsletter to stay informed about upcoming events, open positions, and other opportunities at FP Launchpad. To subscribe, email [contact@fplaunchpad.org](mailto:contact@fplaunchpad.org?subject=Subscribe%20to%20Newsletter) with the subject line "Subscribe to Newsletter". We send updates infrequently and only when there is something meaningful to share. You can read our [past newsletters](/newsletter/2026-05/) here.
