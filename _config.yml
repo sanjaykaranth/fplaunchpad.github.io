@@ -22,15 +22,14 @@ collections:
 
 # Navigation
 header_pages:
-  - index.md
   - charter.md
   - news.md
-  - blog.md
 
 # Social links
 twitter_username: fp_launchpad
 linkedin_url: https://www.linkedin.com/company/fp-launchpad/
 youtube_url: https://www.youtube.com/@fplaunchpad
+github_url: https://github.com/orgs/fplaunchpad/
 
 # Exclude from processing
 exclude:
