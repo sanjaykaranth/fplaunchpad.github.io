@@ -39,5 +39,5 @@ exclude:
 
 # Site-wide announcement strip below the menu bar (_includes/header.html). Delete this block to remove it.
 announcement:
-  text: "Applications are open for the Post-Baccalaureate Fellowship, Cohort 2"
+  text: "Applications are open for the second cohort of the Post-Baccalaureate Fellowship"
   link: /2026/09/24/applications-open-post-bacc-fellowship-cohort-2.html
